@@ -6,7 +6,7 @@ This repository treats "agent environment" broadly: not only the interactive wor
 
 Live GitHub star badges are used where a public repository exists, so the displayed star counts stay current without hard-coding numbers.
 
-For interactive filtering, open [docs/explore.html](docs/explore.html). It supports multi-tag selection and both `match any` and `match all` filtering modes.
+For interactive filtering, open [docs/explore.html](docs/explore.html). It supports multi-tag selection, both `match any` and `match all` filtering modes, and optional click/impression analytics for per-project CTR tracking.
 
 ## Contents
 

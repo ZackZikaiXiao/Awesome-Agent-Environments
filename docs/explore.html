@@ -341,9 +341,11 @@
       </section>
     </main>
 
+    <script src="./analytics-config.js"></script>
     <script src="./entries.js"></script>
     <script>
       const entries = Array.isArray(window.AGENT_ENV_ENTRIES) ? window.AGENT_ENV_ENTRIES : [];
+      const analyticsConfig = window.AGENT_ENV_ANALYTICS || {};
       const searchInput = document.getElementById("search");
       const sectionFilter = document.getElementById("sectionFilter");
       const tagGrid = document.getElementById("tagGrid");
@@ -354,6 +356,8 @@
       const modeAny = document.getElementById("modeAny");
       const modeAll = document.getElementById("modeAll");
       const selectNone = document.getElementById("selectNone");
+      const seenImpressions = new Set();
+      let impressionObserver = null;
 
       const sections = [...new Set(entries.map((entry) => entry.section))].sort();
       const tagCounts = new Map();
@@ -377,6 +381,93 @@
         tags: new Set(),
         mode: "any",
       };
+
+      function slugify(value) {
+        return String(value || "")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "");
+      }
+
+      function normalizeGoatcounterUrl(input) {
+        const raw = String(input || "").trim();
+        if (!raw) return "";
+        if (raw.endsWith("/count")) return raw;
+        return `${raw.replace(/\/+$/, "")}/count`;
+      }
+
+      function loadGoatcounter() {
+        const endpoint = normalizeGoatcounterUrl(analyticsConfig.goatcounterUrl);
+        if (!endpoint) {
+          return Promise.resolve(false);
+        }
+
+        if (window.goatcounter && typeof window.goatcounter.count === "function") {
+          return Promise.resolve(true);
+        }
+
+        return new Promise((resolve) => {
+          const script = document.createElement("script");
+          script.async = true;
+          script.src = "https://gc.zgo.at/count.js";
+          script.dataset.goatcounter = endpoint;
+          script.onload = () => resolve(true);
+          script.onerror = () => resolve(false);
+          document.head.appendChild(script);
+        });
+      }
+
+      const analyticsReady = loadGoatcounter();
+
+      function trackEvent(path, title) {
+        analyticsReady.then((ready) => {
+          if (!ready || !window.goatcounter || typeof window.goatcounter.count !== "function") {
+            return;
+          }
+          window.goatcounter.count({
+            path,
+            title,
+            event: true,
+          });
+        });
+      }
+
+      function viewSignature() {
+        return JSON.stringify({
+          q: state.q,
+          section: state.section,
+          mode: state.mode,
+          tags: [...state.tags].sort(),
+        });
+      }
+
+      function ensureImpressionObserver() {
+        if (impressionObserver) {
+          impressionObserver.disconnect();
+        }
+
+        impressionObserver = new IntersectionObserver(
+          (observedEntries) => {
+            observedEntries.forEach((observed) => {
+              if (!observed.isIntersecting || observed.intersectionRatio < 0.4) {
+                return;
+              }
+
+              const slug = observed.target.dataset.projectSlug;
+              const name = observed.target.dataset.projectName;
+              const key = `${viewSignature()}::${slug}`;
+              if (!seenImpressions.has(key)) {
+                seenImpressions.add(key);
+                trackEvent(`/project-impression/${slug}`, `Project Impression: ${name}`);
+              }
+              impressionObserver.unobserve(observed.target);
+            });
+          },
+          {
+            threshold: [0.4],
+          }
+        );
+      }
 
       function syncUrl() {
         const params = new URLSearchParams();
@@ -483,6 +574,7 @@
 
       function renderCards(results) {
         cards.innerHTML = "";
+        ensureImpressionObserver();
 
         if (!results.length) {
           emptyState.hidden = false;
@@ -494,6 +586,8 @@
         results.forEach((entry) => {
           const article = document.createElement("article");
           article.className = "card";
+          article.dataset.projectSlug = slugify(entry.name);
+          article.dataset.projectName = entry.name;
 
           const title = document.createElement("div");
           title.className = "card-title";
@@ -503,6 +597,12 @@
           link.target = "_blank";
           link.rel = "noreferrer";
           link.textContent = entry.name;
+          link.addEventListener("click", () => {
+            trackEvent(
+              `/project-click/${slugify(entry.name)}`,
+              `Project Click: ${entry.name}`
+            );
+          });
 
           title.append(link);
 
@@ -535,6 +635,7 @@
             article.append(tagRow);
           }
           cards.append(article);
+          impressionObserver.observe(article);
         });
       }
 
