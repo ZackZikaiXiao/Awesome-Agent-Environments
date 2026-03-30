@@ -229,6 +229,20 @@ window.AGENT_ENV_ENTRIES = [
     "section_anchor": "web-environments"
   },
   {
+    "name": "WebArena-Infinity",
+    "url": "https://github.com/web-arena-x/webarena-infinity",
+    "badge": "https://img.shields.io/github/stars/web-arena-x/webarena-infinity?style=flat-square",
+    "description": "Generating browser environments with verifiable tasks at scale using multi-agent automation.",
+    "tags": [
+      "web",
+      "synthetic",
+      "train+eval",
+      "fully-verifiable"
+    ],
+    "section": "Web Environments",
+    "section_anchor": "web-environments"
+  },
+  {
     "name": "VisualWebArena",
     "url": "https://github.com/web-arena-x/visualwebarena",
     "badge": "https://img.shields.io/github/stars/web-arena-x/visualwebarena?style=flat-square",
@@ -1035,20 +1049,6 @@ window.AGENT_ENV_ENTRIES = [
       "embodied",
       "synthetic",
       "train+eval"
-    ],
-    "section": "Synthetic Environments and Environment Scaling",
-    "section_anchor": "synthetic-environments-and-environment-scaling"
-  },
-  {
-    "name": "WebArena-Infinity",
-    "url": "https://github.com/web-arena-x/webarena-infinity",
-    "badge": "https://img.shields.io/github/stars/web-arena-x/webarena-infinity?style=flat-square",
-    "description": "Generating browser environments with verifiable tasks at scale using multi-agent automation.",
-    "tags": [
-      "web",
-      "synthetic",
-      "train+eval",
-      "fully-verifiable"
     ],
     "section": "Synthetic Environments and Environment Scaling",
     "section_anchor": "synthetic-environments-and-environment-scaling"
