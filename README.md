@@ -116,9 +116,12 @@ For a longer Chinese write-up on definitions, trends, and construction patterns,
 
 - [tau-bench](https://github.com/sierra-research/tau-bench) ![stars](https://img.shields.io/github/stars/sierra-research/tau-bench?style=flat-square) - Tool-use benchmark centered on customer-support and business-rule-heavy agent tasks. Tags: `tool-use` `eval` `partially-verifiable`
 - [tau2-bench](https://github.com/sierra-research/tau2-bench) ![stars](https://img.shields.io/github/stars/sierra-research/tau2-bench?style=flat-square) - Harder successor benchmark with dual-control and richer environment dynamics. Tags: `tool-use` `eval`
+- [Tau^3-bench](https://github.com/sierra-research/tau2-bench) ![stars](https://img.shields.io/github/stars/sierra-research/tau2-bench?style=flat-square) - Harder successor benchmark to τ²-bench adding full-duplex voice interaction, knowledge retrieval, and refined task quality. Tags: `tool-use` `eval` 
 - [AppWorld](https://github.com/StonyBrookNLP/appworld) ![stars](https://img.shields.io/github/stars/StonyBrookNLP/appworld?style=flat-square) - App-centric benchmark for multi-tool and multi-app task completion. Tags: `tool-use` `eval`
+- [Toolathlon](https://github.com/hkust-nlp/Toolathlon) ![stars](https://img.shields.io/github/stars/hkust-nlp/Toolathlon?style=flat-square) - A benchmark for language agents featuring 600+ diverse tools across 32 real-world software applications with long-horizon tasks and execution-based evaluation. Tags: `tool-use` `real` `eval` 
 - [ToolSandbox](https://github.com/apple/ToolSandbox) ![stars](https://img.shields.io/github/stars/apple/ToolSandbox?style=flat-square) - Controlled environment for tool-using agents with rich API-level task design. Tags: `tool-use` `train+eval`
 - [MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe) ![stars](https://img.shields.io/github/stars/SalesforceAIResearch/MCP-Universe?style=flat-square) - Benchmarking framework using real-world MCP servers instead of simulated tools. Tags: `tool-use` `eval` `real`
+- [MCPMark](https://github.com/eval-sys/mcpmark) ![stars](https://img.shields.io/github/stars/eval-sys/mcpmark?style=flat-square) - A comprehensive evaluation suite for agentic models that stress-tests tool usage across real MCP services like Notion, GitHub, and Postgres. Tags: `tool-use` `eval` `real`
 - [Toucan](https://github.com/TheAgentArk/Toucan) ![stars](https://img.shields.io/github/stars/TheAgentArk/Toucan?style=flat-square) - Environment and data generation pipeline around real MCP-style tool ecosystems. Tags: `tool-use` `synthetic` `train`
 
 ## Enterprise and Workflow Environments
@@ -159,6 +162,7 @@ For a longer Chinese write-up on definitions, trends, and construction patterns,
 - [AgentScaler](https://arxiv.org/abs/2509.13311) - Environment scaling for function-calling and heterogeneous tool-use agents. Tags: `tool-use` `synthetic` `train`
 - [WebDreamer](https://arxiv.org/abs/2411.06559) - Web world-model direction for simulated web interaction and planning. Tags: `web` `world-model` `train`
 - [VirtualEnv](https://arxiv.org/abs/2601.07553) - Open-source embodied platform with procedurally generated tasks and game-inspired mechanics. Tags: `embodied` `synthetic` `train+eval`
+- [WebArena-Infinity](https://github.com/web-arena-x/webarena-infinity) ![stars](https://img.shields.io/github/stars/web-arena-x/webarena-infinity?style=flat-square) - Generating browser environments with verifiable tasks at scale using multi-agent automation. Tags: `web` `synthetic` `train+eval` `fully-verifiable`
 - [Adaptive Environment Generation for Embodied Agents](https://arxiv.org/abs/2602.06366) - Adaptive scene generation driven by current agent competence. Tags: `embodied` `synthetic` `train`
 - [Dreamer 4](https://arxiv.org/abs/2509.24527) - Scalable world-model training in imagination, including complex Minecraft-style tasks. Tags: `world-model` `embodied` `train`
 - [LLM-in-Sandbox](https://arxiv.org/abs/2601.16206) - General sandbox-first environment design showing broad gains from letting models explore a virtual computer. Tags: `sandbox` `synthetic` `train`

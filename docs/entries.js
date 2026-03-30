@@ -579,12 +579,37 @@ window.AGENT_ENV_ENTRIES = [
     "section_anchor": "tool-api-and-app-environments"
   },
   {
+    "name": "Tau^3-bench",
+    "url": "https://github.com/sierra-research/tau2-bench",
+    "badge": "https://img.shields.io/github/stars/sierra-research/tau2-bench?style=flat-square",
+    "description": "Harder successor benchmark to τ²-bench adding full-duplex voice interaction, knowledge retrieval, and refined task quality.",
+    "tags": [
+      "tool-use",
+      "eval"
+    ],
+    "section": "Tool, API, and App Environments",
+    "section_anchor": "tool-api-and-app-environments"
+  },
+  {
     "name": "AppWorld",
     "url": "https://github.com/StonyBrookNLP/appworld",
     "badge": "https://img.shields.io/github/stars/StonyBrookNLP/appworld?style=flat-square",
     "description": "App-centric benchmark for multi-tool and multi-app task completion.",
     "tags": [
       "tool-use",
+      "eval"
+    ],
+    "section": "Tool, API, and App Environments",
+    "section_anchor": "tool-api-and-app-environments"
+  },
+  {
+    "name": "Toolathlon",
+    "url": "https://github.com/hkust-nlp/Toolathlon",
+    "badge": "https://img.shields.io/github/stars/hkust-nlp/Toolathlon?style=flat-square",
+    "description": "A benchmark for language agents featuring 600+ diverse tools across 32 real-world software applications with long-horizon tasks and execution-based evaluation.",
+    "tags": [
+      "tool-use",
+      "real",
       "eval"
     ],
     "section": "Tool, API, and App Environments",
@@ -607,6 +632,19 @@ window.AGENT_ENV_ENTRIES = [
     "url": "https://github.com/SalesforceAIResearch/MCP-Universe",
     "badge": "https://img.shields.io/github/stars/SalesforceAIResearch/MCP-Universe?style=flat-square",
     "description": "Benchmarking framework using real-world MCP servers instead of simulated tools.",
+    "tags": [
+      "tool-use",
+      "eval",
+      "real"
+    ],
+    "section": "Tool, API, and App Environments",
+    "section_anchor": "tool-api-and-app-environments"
+  },
+  {
+    "name": "MCPMark",
+    "url": "https://github.com/eval-sys/mcpmark",
+    "badge": "https://img.shields.io/github/stars/eval-sys/mcpmark?style=flat-square",
+    "description": "A comprehensive evaluation suite for agentic models that stress-tests tool usage across real MCP services like Notion, GitHub, and Postgres.",
     "tags": [
       "tool-use",
       "eval",
@@ -997,6 +1035,20 @@ window.AGENT_ENV_ENTRIES = [
       "embodied",
       "synthetic",
       "train+eval"
+    ],
+    "section": "Synthetic Environments and Environment Scaling",
+    "section_anchor": "synthetic-environments-and-environment-scaling"
+  },
+  {
+    "name": "WebArena-Infinity",
+    "url": "https://github.com/web-arena-x/webarena-infinity",
+    "badge": "https://img.shields.io/github/stars/web-arena-x/webarena-infinity?style=flat-square",
+    "description": "Generating browser environments with verifiable tasks at scale using multi-agent automation.",
+    "tags": [
+      "web",
+      "synthetic",
+      "train+eval",
+      "fully-verifiable"
     ],
     "section": "Synthetic Environments and Environment Scaling",
     "section_anchor": "synthetic-environments-and-environment-scaling"
