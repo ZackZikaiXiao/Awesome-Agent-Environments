@@ -1,35 +1,58 @@
 # Awesome Agent Environments
 
-> A curated list of environments, benchmarks, simulators, sandboxes, and companion infrastructure for training and evaluating AI agents.
+<div align="center">
+  <p align="center">
+    <a href="docs/explore.html">🧭 Explorer</a> |
+    <a href="docs/taxonomy.md">📝 Taxonomy Notes</a> |
+    <a href="https://github.com/ZackZikaiXiao/Awesome-Agent-Environments">🌐 GitHub</a>
+  </p>
+</div>
 
-This repository treats "agent environment" broadly: not only the interactive worlds that agents act in, but also the systems that synthesize, host, verify, benchmark, and secure those worlds.
+<div align="center">
 
-Live GitHub star badges are used where a public repository exists, so the displayed star counts stay current without hard-coding numbers.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-red)](https://github.com/ZackZikaiXiao/Awesome-Agent-Environments/pulls)
 
-For interactive filtering, open [docs/explore.html](docs/explore.html). It supports multi-tag selection, both `match any` and `match all` filtering modes, and optional click/impression analytics for per-project CTR tracking.
+</div>
+
+This repository collects environments, benchmarks, simulators, sandboxes, and companion infrastructure for training and evaluating AI agents.
+
+It is intentionally broader than a benchmark-only list: besides the worlds agents act in, it also tracks the systems used to synthesize, host, verify, benchmark, and secure those worlds.
+
+⭐ Live GitHub star badges are shown when a public repository exists, so the displayed counts stay current without hard-coding numbers.
+
+🧭 For interactive filtering, open [Explorer](docs/explore.html). It supports interactive filtering, optional click/impression analytics, and per-project CTR tracking.
 
 ## Contents
 
-- [Scope](#scope)
-- [Taxonomy](#taxonomy)
-- [Foundational Environment Systems](#foundational-environment-systems)
-- [Web Environments](#web-environments)
-- [Desktop, GUI, and Mobile Environments](#desktop-gui-and-mobile-environments)
-- [Coding, Terminal, and ML Engineering Environments](#coding-terminal-and-ml-engineering-environments)
-- [Tool, API, and App Environments](#tool-api-and-app-environments)
-- [Enterprise and Workflow Environments](#enterprise-and-workflow-environments)
-- [Embodied, Game, and Social Environments](#embodied-game-and-social-environments)
-- [Synthetic Environments and Environment Scaling](#synthetic-environments-and-environment-scaling)
-- [Runtime, Sandbox, and Isolation Infrastructure](#runtime-sandbox-and-isolation-infrastructure)
-- [Orchestration, Serverless, and Platform Engineering](#orchestration-serverless-and-platform-engineering)
-- [Protocols, Standards, and Capability Interfaces](#protocols-standards-and-capability-interfaces)
-- [Observability and Debugging](#observability-and-debugging)
-- [Evaluation Harnesses and Companion Ecosystems](#evaluation-harnesses-and-companion-ecosystems)
-- [Safety, Security, and Robustness](#safety-security-and-robustness)
-- [Surveys and Reading Lists](#surveys-and-reading-lists)
-- [Contributing](#contributing)
+- [Awesome Agent Environments](#awesome-agent-environments)
+  - [Contents](#contents)
+  - [🧭 Overview](#overview)
+    - [Scope](#scope)
+  - [🌍 Environment Collections](#environment-collections)
+    - [Foundational Environment Systems](#foundational-environment-systems)
+    - [Web Environments](#web-environments)
+    - [Desktop, GUI, and Mobile Environments](#desktop-gui-and-mobile-environments)
+    - [Coding, Terminal, and ML Engineering Environments](#coding-terminal-and-ml-engineering-environments)
+    - [Tool, API, and App Environments](#tool-api-and-app-environments)
+    - [Enterprise and Workflow Environments](#enterprise-and-workflow-environments)
+    - [Embodied, Game, and Social Environments](#embodied-game-and-social-environments)
+  - [🏗️ Construction and Infrastructure](#construction-and-infrastructure)
+    - [Synthetic Environments and Environment Scaling](#synthetic-environments-and-environment-scaling)
+    - [Runtime, Sandbox, and Isolation Infrastructure](#runtime-sandbox-and-isolation-infrastructure)
+    - [Orchestration, Serverless, and Platform Engineering](#orchestration-serverless-and-platform-engineering)
+    - [Protocols, Standards, and Capability Interfaces](#protocols-standards-and-capability-interfaces)
+    - [Observability and Debugging](#observability-and-debugging)
+    - [Evaluation Harnesses and Companion Ecosystems](#evaluation-harnesses-and-companion-ecosystems)
+    - [Safety, Security, and Robustness](#safety-security-and-robustness)
+  - [📚 Supporting Material](#supporting-material)
+    - [Surveys and Reading Lists](#surveys-and-reading-lists)
+    - [Contributing](#contributing)
 
-## Scope
+## Overview
+
+### Scope
 
 Included:
 
@@ -46,204 +69,199 @@ Excluded by default:
 - Pure model papers with no environment contribution
 - Generic tooling unless it is directly used to build, host, or evaluate agent environments
 
-## Taxonomy
+For a longer Chinese write-up on definitions, classification axes, development patterns, and construction methods, see [docs/taxonomy.md](docs/taxonomy.md).
 
-This list uses one primary section per project plus lightweight tags. The tags encode the orthogonal views that are harder to express with a single table-of-contents tree.
+## Environment Collections
 
-- Fidelity: `real` `self-hosted` `llm-sim` `synthetic` `world-model`
-- Domain: `web` `gui` `mobile` `coding` `terminal` `tool-use` `enterprise` `workflow` `embodied` `game` `social` `science` `multi-domain`
-- Purpose: `eval` `train` `train+eval`
-- Verification: `fully-verifiable` `partially-verifiable` `llm-judge` `human`
-- Infra: `platform` `sandbox` `runtime` `orchestration` `serverless` `protocol` `observability` `harness` `security` `standard`
+### Foundational Environment Systems
 
-For a longer Chinese write-up on definitions, trends, and construction patterns, see [docs/taxonomy.md](docs/taxonomy.md).
+- [OpenAI Gym](https://github.com/openai/gym) [![GitHub Repo stars](https://img.shields.io/github/stars/openai/gym)](https://github.com/openai/gym) - The original de facto standard API for reinforcement learning environments.
+- [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) [![GitHub Repo stars](https://img.shields.io/github/stars/Farama-Foundation/Gymnasium)](https://github.com/Farama-Foundation/Gymnasium) - Community-maintained continuation of Gym with modernized APIs and compatibility.
+- [AEnvironment](https://github.com/inclusionAI/AEnvironment) [![GitHub Repo stars](https://img.shields.io/github/stars/inclusionAI/AEnvironment)](https://github.com/inclusionAI/AEnvironment) - Standardized environment infrastructure for Agentic AI development.
+- [AgentBench](https://github.com/THUDM/AgentBench) [![GitHub Repo stars](https://img.shields.io/github/stars/THUDM/AgentBench)](https://github.com/THUDM/AgentBench) - Early broad benchmark suite covering multiple agent settings and task families.
+- [VisualAgentBench](https://github.com/THUDM/VisualAgentBench) [![GitHub Repo stars](https://img.shields.io/github/stars/THUDM/VisualAgentBench)](https://github.com/THUDM/VisualAgentBench) - Visual and multimodal benchmark family for environment-grounded agents.
+- [CRAB](https://github.com/camel-ai/crab) [![GitHub Repo stars](https://img.shields.io/github/stars/camel-ai/crab)](https://github.com/camel-ai/crab) - A cross-environment benchmark for computer-use and embodied-style agent tasks.
+- [Procgen Benchmark](https://github.com/openai/procgen) [![GitHub Repo stars](https://img.shields.io/github/stars/openai/procgen)](https://github.com/openai/procgen) - Procedurally generated RL benchmark emphasizing generalization across environment instances.
+- [MiniGrid](https://github.com/Farama-Foundation/Minigrid) [![GitHub Repo stars](https://img.shields.io/github/stars/Farama-Foundation/Minigrid)](https://github.com/Farama-Foundation/Minigrid) - Lightweight gridworld benchmark for instruction following and planning.
+- [EnvPool](https://github.com/sail-sg/envpool) [![GitHub Repo stars](https://img.shields.io/github/stars/sail-sg/envpool)](https://github.com/sail-sg/envpool) - High-throughput environment execution engine for large-scale RL training.
+- [RLlib](https://github.com/ray-project/ray) [![GitHub Repo stars](https://img.shields.io/github/stars/ray-project/ray)](https://github.com/ray-project/ray) - Distributed RL and agent framework with strong environment-parallelism abstractions.
+- [Acme](https://github.com/google-deepmind/acme) [![GitHub Repo stars](https://img.shields.io/github/stars/google-deepmind/acme)](https://github.com/google-deepmind/acme) - DeepMind's RL framework for modular agents, actors, and environments.
+- [NVIDIA NeMo Gym](https://github.com/NVIDIA-NeMo/Gym) [![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA-NeMo/Gym)](https://github.com/NVIDIA-NeMo/Gym) - Gym-style infrastructure for training and evaluating agentic systems.
 
-## Foundational Environment Systems
+### Web Environments
 
-- [OpenAI Gym](https://github.com/openai/gym) ![stars](https://img.shields.io/github/stars/openai/gym?style=flat-square) - The original de facto standard API for reinforcement learning environments. Tags: `platform` `multi-domain` `train+eval` `standard`
-- [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) ![stars](https://img.shields.io/github/stars/Farama-Foundation/Gymnasium?style=flat-square) - Community-maintained continuation of Gym with modernized APIs and compatibility. Tags: `platform` `multi-domain` `train+eval` `standard`
-- [AEnvironment](https://github.com/inclusionAI/AEnvironment) ![stars](https://img.shields.io/github/stars/inclusionAI/AEnvironment?style=flat-square) - Standardized environment infrastructure for Agentic AI development. Tags: `platform` `multi-domain` `train+eval`
-- [AgentBench](https://github.com/THUDM/AgentBench) ![stars](https://img.shields.io/github/stars/THUDM/AgentBench?style=flat-square) - Early broad benchmark suite covering multiple agent settings and task families. Tags: `platform` `multi-domain` `eval`
-- [VisualAgentBench](https://github.com/THUDM/VisualAgentBench) ![stars](https://img.shields.io/github/stars/THUDM/VisualAgentBench?style=flat-square) - Visual and multimodal benchmark family for environment-grounded agents. Tags: `platform` `gui` `web` `eval`
-- [CRAB](https://github.com/camel-ai/crab) ![stars](https://img.shields.io/github/stars/camel-ai/crab?style=flat-square) - A cross-environment benchmark for computer-use and embodied-style agent tasks. Tags: `platform` `multi-domain` `eval`
-- [Procgen Benchmark](https://github.com/openai/procgen) ![stars](https://img.shields.io/github/stars/openai/procgen?style=flat-square) - Procedurally generated RL benchmark emphasizing generalization across environment instances. Tags: `platform` `game` `synthetic` `train+eval`
-- [MiniGrid](https://github.com/Farama-Foundation/Minigrid) ![stars](https://img.shields.io/github/stars/Farama-Foundation/Minigrid?style=flat-square) - Lightweight gridworld benchmark for instruction following and planning. Tags: `platform` `game` `synthetic` `train+eval`
-- [EnvPool](https://github.com/sail-sg/envpool) ![stars](https://img.shields.io/github/stars/sail-sg/envpool?style=flat-square) - High-throughput environment execution engine for large-scale RL training. Tags: `platform` `runtime` `train`
-- [RLlib](https://github.com/ray-project/ray) ![stars](https://img.shields.io/github/stars/ray-project/ray?style=flat-square) - Distributed RL and agent framework with strong environment-parallelism abstractions. Tags: `platform` `multi-domain` `train`
-- [Acme](https://github.com/google-deepmind/acme) ![stars](https://img.shields.io/github/stars/google-deepmind/acme?style=flat-square) - DeepMind's RL framework for modular agents, actors, and environments. Tags: `platform` `multi-domain` `train`
-- [NVIDIA NeMo Gym](https://github.com/NVIDIA-NeMo/Gym) ![stars](https://img.shields.io/github/stars/NVIDIA-NeMo/Gym?style=flat-square) - Gym-style infrastructure for training and evaluating agentic systems. Tags: `platform` `train+eval` `harness`
+- [MiniWoB++](https://github.com/Farama-Foundation/miniwob-plusplus) [![GitHub Repo stars](https://img.shields.io/github/stars/Farama-Foundation/miniwob-plusplus)](https://github.com/Farama-Foundation/miniwob-plusplus) - Canonical lightweight browser tasks for web interaction agents.
+- [WebShop](https://github.com/princeton-nlp/WebShop) [![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/WebShop)](https://github.com/princeton-nlp/WebShop) - Shopping environment for instruction following and decision making on realistic storefronts.
+- [Mind2Web](https://github.com/OSU-NLP-Group/Mind2Web) [![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/Mind2Web)](https://github.com/OSU-NLP-Group/Mind2Web) - Real-world web task dataset and benchmark grounded in live websites.
+- [Online-Mind2Web](https://arxiv.org/abs/2504.01382) - Online extension of Mind2Web for live and dynamic web interaction.
+- [WebArena](https://github.com/web-arena-x/webarena) [![GitHub Repo stars](https://img.shields.io/github/stars/web-arena-x/webarena)](https://github.com/web-arena-x/webarena) - Self-hostable benchmark built from cloned web services.
+- [WebArena-Infinity](https://github.com/web-arena-x/webarena-infinity) [![GitHub Repo stars](https://img.shields.io/github/stars/web-arena-x/webarena-infinity)](https://github.com/web-arena-x/webarena-infinity) - Generating browser environments with verifiable tasks at scale using multi-agent automation.
+- [VisualWebArena](https://github.com/web-arena-x/visualwebarena) [![GitHub Repo stars](https://img.shields.io/github/stars/web-arena-x/visualwebarena)](https://github.com/web-arena-x/visualwebarena) - Multimodal extension of WebArena with richer visual grounding.
+- [WebVoyager](https://github.com/MinorJerry/WebVoyager) [![GitHub Repo stars](https://img.shields.io/github/stars/MinorJerry/WebVoyager)](https://github.com/MinorJerry/WebVoyager) - Open-web browsing benchmark and agent setup for realistic live website interaction.
+- [WorkArena](https://github.com/ServiceNow/WorkArena) [![GitHub Repo stars](https://img.shields.io/github/stars/ServiceNow/WorkArena)](https://github.com/ServiceNow/WorkArena) - BrowserGym-compatible enterprise web tasks built on ServiceNow workflows.
+- [WorkArena++](https://arxiv.org/abs/2407.05291) - Harder successor benchmark expanding task realism and difficulty for enterprise web agents.
+- [AssistantBench](https://arxiv.org/abs/2407.15711) - Web-assisted benchmark for complex, realistic assistant tasks.
+- [WebLINX](https://github.com/McGill-NLP/WebLINX) [![GitHub Repo stars](https://img.shields.io/github/stars/McGill-NLP/WebLINX)](https://github.com/McGill-NLP/WebLINX) - Browser interaction benchmark and dataset focused on long, realistic web sessions.
+- [FieldWorkArena](https://github.com/FujitsuResearch/FieldWorkArena) [![GitHub Repo stars](https://img.shields.io/github/stars/FujitsuResearch/FieldWorkArena)](https://github.com/FujitsuResearch/FieldWorkArena) - Benchmark for field-service style workflows conducted through enterprise web interfaces.
+- [WebChoreArena](https://arxiv.org/abs/2509.13177) - Cross-page and multi-step web chores benchmark designed to break shortcut-heavy web agents.
 
-## Web Environments
+### Desktop, GUI, and Mobile Environments
 
-- [MiniWoB++](https://github.com/Farama-Foundation/miniwob-plusplus) ![stars](https://img.shields.io/github/stars/Farama-Foundation/miniwob-plusplus?style=flat-square) - Canonical lightweight browser tasks for web interaction agents. Tags: `web` `self-hosted` `eval` `fully-verifiable`
-- [WebShop](https://github.com/princeton-nlp/WebShop) ![stars](https://img.shields.io/github/stars/princeton-nlp/WebShop?style=flat-square) - Shopping environment for instruction following and decision making on realistic storefronts. Tags: `web` `self-hosted` `train+eval` `partially-verifiable`
-- [Mind2Web](https://github.com/OSU-NLP-Group/Mind2Web) ![stars](https://img.shields.io/github/stars/OSU-NLP-Group/Mind2Web?style=flat-square) - Real-world web task dataset and benchmark grounded in live websites. Tags: `web` `real` `eval`
-- [Online-Mind2Web](https://arxiv.org/abs/2504.01382) - Online extension of Mind2Web for live and dynamic web interaction. Tags: `web` `real` `eval`
-- [WebArena](https://github.com/web-arena-x/webarena) ![stars](https://img.shields.io/github/stars/web-arena-x/webarena?style=flat-square) - Self-hostable benchmark built from cloned web services. Tags: `web` `self-hosted` `eval` `partially-verifiable`
-- [WebArena-Infinity](https://github.com/web-arena-x/webarena-infinity) ![stars](https://img.shields.io/github/stars/web-arena-x/webarena-infinity?style=flat-square) - Generating browser environments with verifiable tasks at scale using multi-agent automation. Tags: `web` `synthetic` `train+eval` `fully-verifiable`
-- [VisualWebArena](https://github.com/web-arena-x/visualwebarena) ![stars](https://img.shields.io/github/stars/web-arena-x/visualwebarena?style=flat-square) - Multimodal extension of WebArena with richer visual grounding. Tags: `web` `self-hosted` `eval`
-- [WebVoyager](https://github.com/MinorJerry/WebVoyager) ![stars](https://img.shields.io/github/stars/MinorJerry/WebVoyager?style=flat-square) - Open-web browsing benchmark and agent setup for realistic live website interaction. Tags: `web` `real` `eval` `llm-judge`
-- [WorkArena](https://github.com/ServiceNow/WorkArena) ![stars](https://img.shields.io/github/stars/ServiceNow/WorkArena?style=flat-square) - BrowserGym-compatible enterprise web tasks built on ServiceNow workflows. Tags: `web` `self-hosted` `enterprise` `eval`
-- [WorkArena++](https://arxiv.org/abs/2407.05291) - Harder successor benchmark expanding task realism and difficulty for enterprise web agents. Tags: `web` `enterprise` `eval`
-- [AssistantBench](https://arxiv.org/abs/2407.15711) - Web-assisted benchmark for complex, realistic assistant tasks. Tags: `web` `real` `eval`
-- [WebLINX](https://github.com/McGill-NLP/WebLINX) ![stars](https://img.shields.io/github/stars/McGill-NLP/WebLINX?style=flat-square) - Browser interaction benchmark and dataset focused on long, realistic web sessions. Tags: `web` `eval`
-- [FieldWorkArena](https://github.com/FujitsuResearch/FieldWorkArena) ![stars](https://img.shields.io/github/stars/FujitsuResearch/FieldWorkArena?style=flat-square) - Benchmark for field-service style workflows conducted through enterprise web interfaces. Tags: `web` `enterprise` `eval`
-- [WebChoreArena](https://arxiv.org/abs/2509.13177) - Cross-page and multi-step web chores benchmark designed to break shortcut-heavy web agents. Tags: `web` `eval`
+- [OSWorld](https://github.com/xlang-ai/OSWorld) [![GitHub Repo stars](https://img.shields.io/github/stars/xlang-ai/OSWorld)](https://github.com/xlang-ai/OSWorld) - Full operating-system benchmark with real desktop applications and scripted verification.
+- [WindowsAgentArena](https://github.com/microsoft/WindowsAgentArena) [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/WindowsAgentArena)](https://github.com/microsoft/WindowsAgentArena) - Windows-native desktop benchmark for GUI agents.
+- [AndroidWorld](https://github.com/google-research/android_world) [![GitHub Repo stars](https://img.shields.io/github/stars/google-research/android_world)](https://github.com/google-research/android_world) - Android task suite for mobile agent evaluation and training.
+- [MobileWorld](https://arxiv.org/abs/2512.19432) - Harder mobile benchmark built to stay ahead of rapidly saturating phone-use agents.
+- [OSExpert](https://arxiv.org/abs/2603.07978) - Harder desktop benchmark targeting professional software usage beyond commodity OS tasks.
 
-## Desktop, GUI, and Mobile Environments
+### Coding, Terminal, and ML Engineering Environments
 
-- [OSWorld](https://github.com/xlang-ai/OSWorld) ![stars](https://img.shields.io/github/stars/xlang-ai/OSWorld?style=flat-square) - Full operating-system benchmark with real desktop applications and scripted verification. Tags: `gui` `real` `eval` `partially-verifiable`
-- [WindowsAgentArena](https://github.com/microsoft/WindowsAgentArena) ![stars](https://img.shields.io/github/stars/microsoft/WindowsAgentArena?style=flat-square) - Windows-native desktop benchmark for GUI agents. Tags: `gui` `real` `eval`
-- [AndroidWorld](https://github.com/google-research/android_world) ![stars](https://img.shields.io/github/stars/google-research/android_world?style=flat-square) - Android task suite for mobile agent evaluation and training. Tags: `mobile` `real` `train+eval`
-- [MobileWorld](https://arxiv.org/abs/2512.19432) - Harder mobile benchmark built to stay ahead of rapidly saturating phone-use agents. Tags: `mobile` `eval`
-- [OSExpert](https://arxiv.org/abs/2603.07978) - Harder desktop benchmark targeting professional software usage beyond commodity OS tasks. Tags: `gui` `eval`
+- [SWE-bench](https://github.com/SWE-bench/SWE-bench) [![GitHub Repo stars](https://img.shields.io/github/stars/SWE-bench/SWE-bench)](https://github.com/SWE-bench/SWE-bench) - Standard issue-resolution benchmark built from real GitHub repositories and tests.
+- [SWE-Gym](https://github.com/SWE-Gym/SWE-Gym) [![GitHub Repo stars](https://img.shields.io/github/stars/SWE-Gym/SWE-Gym)](https://github.com/SWE-Gym/SWE-Gym) - Public training environment for software engineering agents and verifiers.
+- [R2E-Gym](https://github.com/R2E-Gym/R2E-Gym) [![GitHub Repo stars](https://img.shields.io/github/stars/R2E-Gym/R2E-Gym)](https://github.com/R2E-Gym/R2E-Gym) - Procedural environment generation and hybrid verifiers for open-weight SWE agents.
+- [Debug-Gym](https://github.com/microsoft/debug-gym) [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/debug-gym)](https://github.com/microsoft/debug-gym) - Text-based interactive debugging environment with debugger-aware agent loops.
+- [Hybrid-Gym](https://github.com/yiqingxyq/Hybrid-Gym) [![GitHub Repo stars](https://img.shields.io/github/stars/yiqingxyq/Hybrid-Gym)](https://github.com/yiqingxyq/Hybrid-Gym) - Coding-agent training environment aimed at cross-task generalization.
+- [Terminal-Bench](https://github.com/laude-institute/terminal-bench) [![GitHub Repo stars](https://img.shields.io/github/stars/laude-institute/terminal-bench)](https://github.com/laude-institute/terminal-bench) - Verifiable terminal benchmark for shell-based agents.
+- [TerminalTraj](https://github.com/Wusiwei0410/TerminalTraj) [![GitHub Repo stars](https://img.shields.io/github/stars/Wusiwei0410/TerminalTraj)](https://github.com/Wusiwei0410/TerminalTraj) - Large-scale verified terminal trajectories collected from dockerized environments.
+- [MLE-bench](https://github.com/openai/mle-bench) [![GitHub Repo stars](https://img.shields.io/github/stars/openai/mle-bench)](https://github.com/openai/mle-bench) - End-to-end machine learning engineering benchmark.
+- [MLE-Dojo](https://github.com/MLE-Dojo/MLE-Dojo) [![GitHub Repo stars](https://img.shields.io/github/stars/MLE-Dojo/MLE-Dojo)](https://github.com/MLE-Dojo/MLE-Dojo) - Training and evaluation environment for ML engineering agents.
+- [MLGym](https://github.com/facebookresearch/MLGym) [![GitHub Repo stars](https://img.shields.io/github/stars/facebookresearch/MLGym)](https://github.com/facebookresearch/MLGym) - Gym-style benchmark for ML research and engineering tasks.
+- [GitTaskBench](https://github.com/QuantaAlpha/GitTaskBench) [![GitHub Repo stars](https://img.shields.io/github/stars/QuantaAlpha/GitTaskBench)](https://github.com/QuantaAlpha/GitTaskBench) - Git-centric task benchmark for repository manipulation agents.
+- [SWE-Factory](https://github.com/DeepSoftwareAnalytics/swe-factory) [![GitHub Repo stars](https://img.shields.io/github/stars/DeepSoftwareAnalytics/swe-factory)](https://github.com/DeepSoftwareAnalytics/swe-factory) - Automated factory for issue-resolution training data and benchmark generation.
 
-## Coding, Terminal, and ML Engineering Environments
+### Tool, API, and App Environments
 
-- [SWE-bench](https://github.com/SWE-bench/SWE-bench) ![stars](https://img.shields.io/github/stars/SWE-bench/SWE-bench?style=flat-square) - Standard issue-resolution benchmark built from real GitHub repositories and tests. Tags: `coding` `terminal` `eval` `fully-verifiable`
-- [SWE-Gym](https://github.com/SWE-Gym/SWE-Gym) ![stars](https://img.shields.io/github/stars/SWE-Gym/SWE-Gym?style=flat-square) - Public training environment for software engineering agents and verifiers. Tags: `coding` `train` `fully-verifiable`
-- [R2E-Gym](https://github.com/R2E-Gym/R2E-Gym) ![stars](https://img.shields.io/github/stars/R2E-Gym/R2E-Gym?style=flat-square) - Procedural environment generation and hybrid verifiers for open-weight SWE agents. Tags: `coding` `train` `fully-verifiable` `synthetic`
-- [Debug-Gym](https://github.com/microsoft/debug-gym) ![stars](https://img.shields.io/github/stars/microsoft/debug-gym?style=flat-square) - Text-based interactive debugging environment with debugger-aware agent loops. Tags: `coding` `terminal` `train+eval`
-- [Hybrid-Gym](https://github.com/yiqingxyq/Hybrid-Gym) ![stars](https://img.shields.io/github/stars/yiqingxyq/Hybrid-Gym?style=flat-square) - Coding-agent training environment aimed at cross-task generalization. Tags: `coding` `train`
-- [Terminal-Bench](https://github.com/laude-institute/terminal-bench) ![stars](https://img.shields.io/github/stars/laude-institute/terminal-bench?style=flat-square) - Verifiable terminal benchmark for shell-based agents. Tags: `terminal` `eval` `fully-verifiable`
-- [TerminalTraj](https://github.com/Wusiwei0410/TerminalTraj) ![stars](https://img.shields.io/github/stars/Wusiwei0410/TerminalTraj?style=flat-square) - Large-scale verified terminal trajectories collected from dockerized environments. Tags: `terminal` `train` `fully-verifiable`
-- [MLE-bench](https://github.com/openai/mle-bench) ![stars](https://img.shields.io/github/stars/openai/mle-bench?style=flat-square) - End-to-end machine learning engineering benchmark. Tags: `coding` `science` `eval`
-- [MLE-Dojo](https://github.com/MLE-Dojo/MLE-Dojo) ![stars](https://img.shields.io/github/stars/MLE-Dojo/MLE-Dojo?style=flat-square) - Training and evaluation environment for ML engineering agents. Tags: `coding` `science` `train+eval`
-- [MLGym](https://github.com/facebookresearch/MLGym) ![stars](https://img.shields.io/github/stars/facebookresearch/MLGym?style=flat-square) - Gym-style benchmark for ML research and engineering tasks. Tags: `coding` `science` `train+eval`
-- [GitTaskBench](https://github.com/QuantaAlpha/GitTaskBench) ![stars](https://img.shields.io/github/stars/QuantaAlpha/GitTaskBench?style=flat-square) - Git-centric task benchmark for repository manipulation agents. Tags: `coding` `terminal` `eval`
-- [SWE-Factory](https://github.com/DeepSoftwareAnalytics/swe-factory) ![stars](https://img.shields.io/github/stars/DeepSoftwareAnalytics/swe-factory?style=flat-square) - Automated factory for issue-resolution training data and benchmark generation. Tags: `coding` `synthetic` `train`
+- [tau-bench](https://github.com/sierra-research/tau-bench) [![GitHub Repo stars](https://img.shields.io/github/stars/sierra-research/tau-bench)](https://github.com/sierra-research/tau-bench) - Tool-use benchmark centered on customer-support and business-rule-heavy agent tasks.
+- [tau2-bench](https://github.com/sierra-research/tau2-bench) [![GitHub Repo stars](https://img.shields.io/github/stars/sierra-research/tau2-bench)](https://github.com/sierra-research/tau2-bench) - Harder successor benchmark with dual-control and richer environment dynamics.
+- [Tau^3-bench](https://github.com/sierra-research/tau2-bench) [![GitHub Repo stars](https://img.shields.io/github/stars/sierra-research/tau2-bench)](https://github.com/sierra-research/tau2-bench) - Harder successor benchmark to τ²-bench adding full-duplex voice interaction, knowledge retrieval, and refined task quality.
+- [AppWorld](https://github.com/StonyBrookNLP/appworld) [![GitHub Repo stars](https://img.shields.io/github/stars/StonyBrookNLP/appworld)](https://github.com/StonyBrookNLP/appworld) - App-centric benchmark for multi-tool and multi-app task completion.
+- [Toolathlon](https://github.com/hkust-nlp/Toolathlon) [![GitHub Repo stars](https://img.shields.io/github/stars/hkust-nlp/Toolathlon)](https://github.com/hkust-nlp/Toolathlon) - A benchmark for language agents featuring 600+ diverse tools across 32 real-world software applications with long-horizon tasks and execution-based evaluation.
+- [ToolSandbox](https://github.com/apple/ToolSandbox) [![GitHub Repo stars](https://img.shields.io/github/stars/apple/ToolSandbox)](https://github.com/apple/ToolSandbox) - Controlled environment for tool-using agents with rich API-level task design.
+- [MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe) [![GitHub Repo stars](https://img.shields.io/github/stars/SalesforceAIResearch/MCP-Universe)](https://github.com/SalesforceAIResearch/MCP-Universe) - Benchmarking framework using real-world MCP servers instead of simulated tools.
+- [MCPMark](https://github.com/eval-sys/mcpmark) [![GitHub Repo stars](https://img.shields.io/github/stars/eval-sys/mcpmark)](https://github.com/eval-sys/mcpmark) - A comprehensive evaluation suite for agentic models that stress-tests tool usage across real MCP services like Notion, GitHub, and Postgres.
+- [Toucan](https://github.com/TheAgentArk/Toucan) [![GitHub Repo stars](https://img.shields.io/github/stars/TheAgentArk/Toucan)](https://github.com/TheAgentArk/Toucan) - Environment and data generation pipeline around real MCP-style tool ecosystems.
 
-## Tool, API, and App Environments
+### Enterprise and Workflow Environments
 
-- [tau-bench](https://github.com/sierra-research/tau-bench) ![stars](https://img.shields.io/github/stars/sierra-research/tau-bench?style=flat-square) - Tool-use benchmark centered on customer-support and business-rule-heavy agent tasks. Tags: `tool-use` `eval` `partially-verifiable`
-- [tau2-bench](https://github.com/sierra-research/tau2-bench) ![stars](https://img.shields.io/github/stars/sierra-research/tau2-bench?style=flat-square) - Harder successor benchmark with dual-control and richer environment dynamics. Tags: `tool-use` `eval`
-- [Tau^3-bench](https://github.com/sierra-research/tau2-bench) ![stars](https://img.shields.io/github/stars/sierra-research/tau2-bench?style=flat-square) - Harder successor benchmark to τ²-bench adding full-duplex voice interaction, knowledge retrieval, and refined task quality. Tags: `tool-use` `eval` 
-- [AppWorld](https://github.com/StonyBrookNLP/appworld) ![stars](https://img.shields.io/github/stars/StonyBrookNLP/appworld?style=flat-square) - App-centric benchmark for multi-tool and multi-app task completion. Tags: `tool-use` `eval`
-- [Toolathlon](https://github.com/hkust-nlp/Toolathlon) ![stars](https://img.shields.io/github/stars/hkust-nlp/Toolathlon?style=flat-square) - A benchmark for language agents featuring 600+ diverse tools across 32 real-world software applications with long-horizon tasks and execution-based evaluation. Tags: `tool-use` `real` `eval` 
-- [ToolSandbox](https://github.com/apple/ToolSandbox) ![stars](https://img.shields.io/github/stars/apple/ToolSandbox?style=flat-square) - Controlled environment for tool-using agents with rich API-level task design. Tags: `tool-use` `train+eval`
-- [MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe) ![stars](https://img.shields.io/github/stars/SalesforceAIResearch/MCP-Universe?style=flat-square) - Benchmarking framework using real-world MCP servers instead of simulated tools. Tags: `tool-use` `eval` `real`
-- [MCPMark](https://github.com/eval-sys/mcpmark) ![stars](https://img.shields.io/github/stars/eval-sys/mcpmark?style=flat-square) - A comprehensive evaluation suite for agentic models that stress-tests tool usage across real MCP services like Notion, GitHub, and Postgres. Tags: `tool-use` `eval` `real` 
-- [Toucan](https://github.com/TheAgentArk/Toucan) ![stars](https://img.shields.io/github/stars/TheAgentArk/Toucan?style=flat-square) - Environment and data generation pipeline around real MCP-style tool ecosystems. Tags: `tool-use` `synthetic` `train`
+- [TheAgentCompany](https://github.com/TheAgentCompany/TheAgentCompany) [![GitHub Repo stars](https://img.shields.io/github/stars/TheAgentCompany/TheAgentCompany)](https://github.com/TheAgentCompany/TheAgentCompany) - Enterprise-style benchmark covering long-horizon workplace tasks.
+- [OfficeBench](https://github.com/zlwang-cs/OfficeBench) [![GitHub Repo stars](https://img.shields.io/github/stars/zlwang-cs/OfficeBench)](https://github.com/zlwang-cs/OfficeBench) - Office productivity benchmark spanning documents, spreadsheets, slides, and email-style tasks.
+- [ScienceBoard](https://github.com/OS-Copilot/ScienceBoard) [![GitHub Repo stars](https://img.shields.io/github/stars/OS-Copilot/ScienceBoard)](https://github.com/OS-Copilot/ScienceBoard) - Scientific workflow environment for research-task agents.
 
-## Enterprise and Workflow Environments
+### Embodied, Game, and Social Environments
 
-- [TheAgentCompany](https://github.com/TheAgentCompany/TheAgentCompany) ![stars](https://img.shields.io/github/stars/TheAgentCompany/TheAgentCompany?style=flat-square) - Enterprise-style benchmark covering long-horizon workplace tasks. Tags: `enterprise` `eval`
-- [OfficeBench](https://github.com/zlwang-cs/OfficeBench) ![stars](https://img.shields.io/github/stars/zlwang-cs/OfficeBench?style=flat-square) - Office productivity benchmark spanning documents, spreadsheets, slides, and email-style tasks. Tags: `enterprise` `eval`
-- [ScienceBoard](https://github.com/OS-Copilot/ScienceBoard) ![stars](https://img.shields.io/github/stars/OS-Copilot/ScienceBoard?style=flat-square) - Scientific workflow environment for research-task agents. Tags: `science` `workflow` `eval`
+- [TextWorld](https://github.com/microsoft/TextWorld) [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/TextWorld)](https://github.com/microsoft/TextWorld) - Text-based reinforcement learning framework for interactive fiction and long-horizon reasoning.
+- [ScienceWorld](https://github.com/allenai/ScienceWorld) [![GitHub Repo stars](https://img.shields.io/github/stars/allenai/ScienceWorld)](https://github.com/allenai/ScienceWorld) - Text-based scientific experimentation environment.
+- [ALFWorld](https://github.com/alfworld/alfworld) [![GitHub Repo stars](https://img.shields.io/github/stars/alfworld/alfworld)](https://github.com/alfworld/alfworld) - Text + embodied household benchmark bridging language and action.
+- [VirtualHome](https://github.com/xavierpuigf/virtualhome) [![GitHub Repo stars](https://img.shields.io/github/stars/xavierpuigf/virtualhome)](https://github.com/xavierpuigf/virtualhome) - Household activity simulator with rich programmatic supervision.
+- [AI2-THOR](https://github.com/allenai/ai2thor) [![GitHub Repo stars](https://img.shields.io/github/stars/allenai/ai2thor)](https://github.com/allenai/ai2thor) - Interactive 3D environment for embodied AI tasks.
+- [Habitat-Lab](https://github.com/facebookresearch/habitat-lab) [![GitHub Repo stars](https://img.shields.io/github/stars/facebookresearch/habitat-lab)](https://github.com/facebookresearch/habitat-lab) - Research platform for embodied navigation and manipulation.
+- [Habitat 2.0](https://aihabitat.org/) - Large-scale embodied benchmark stack integrating simulation, datasets, and tasks.
+- [Isaac Gym](https://developer.nvidia.com/isaac-gym) - GPU-native robotics simulation for massively parallel RL.
+- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) [![GitHub Repo stars](https://img.shields.io/github/stars/isaac-sim/IsaacLab)](https://github.com/isaac-sim/IsaacLab) - Successor stack for scalable robot learning and simulation on NVIDIA platforms.
+- [ManiSkill](https://github.com/haosulab/ManiSkill) [![GitHub Repo stars](https://img.shields.io/github/stars/haosulab/ManiSkill)](https://github.com/haosulab/ManiSkill) - Fast, scalable benchmark suite for manipulation agents.
+- [MineRL](https://github.com/minerllabs/minerl) [![GitHub Repo stars](https://img.shields.io/github/stars/minerllabs/minerl)](https://github.com/minerllabs/minerl) - Minecraft benchmark and data ecosystem for long-horizon agents.
+- [NetHack Learning Environment](https://github.com/facebookresearch/nle) [![GitHub Repo stars](https://img.shields.io/github/stars/facebookresearch/nle)](https://github.com/facebookresearch/nle) - Roguelike benchmark for long-horizon exploration and planning.
+- [DiscoveryWorld](https://github.com/allenai/discoveryworld) [![GitHub Repo stars](https://img.shields.io/github/stars/allenai/discoveryworld)](https://github.com/allenai/discoveryworld) - Open-ended simulated world for scientific and interactive reasoning.
+- [Sotopia](https://github.com/sotopia-lab/sotopia) [![GitHub Repo stars](https://img.shields.io/github/stars/sotopia-lab/sotopia)](https://github.com/sotopia-lab/sotopia) - Open-ended social learning environment for language agents.
+- [Sotopia-pi](https://github.com/sotopia-lab/sotopia-pi) [![GitHub Repo stars](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi)](https://github.com/sotopia-lab/sotopia-pi) - Preference and interaction stack extending Sotopia-style social evaluation.
+- [ChatArena](https://github.com/Farama-Foundation/chatarena) [![GitHub Repo stars](https://img.shields.io/github/stars/Farama-Foundation/chatarena)](https://github.com/Farama-Foundation/chatarena) - Multi-agent language game environments for collaboration and competition.
+- [AdaSociety](https://github.com/bigai-ai/AdaSociety) [![GitHub Repo stars](https://img.shields.io/github/stars/bigai-ai/AdaSociety)](https://github.com/bigai-ai/AdaSociety) - Multi-agent environment with expanding state/action spaces and explicit social structure.
 
-## Embodied, Game, and Social Environments
+## Construction and Infrastructure
 
-- [TextWorld](https://github.com/microsoft/TextWorld) ![stars](https://img.shields.io/github/stars/microsoft/TextWorld?style=flat-square) - Text-based reinforcement learning framework for interactive fiction and long-horizon reasoning. Tags: `game` `train+eval`
-- [ScienceWorld](https://github.com/allenai/ScienceWorld) ![stars](https://img.shields.io/github/stars/allenai/ScienceWorld?style=flat-square) - Text-based scientific experimentation environment. Tags: `science` `game` `train+eval`
-- [ALFWorld](https://github.com/alfworld/alfworld) ![stars](https://img.shields.io/github/stars/alfworld/alfworld?style=flat-square) - Text + embodied household benchmark bridging language and action. Tags: `embodied` `train+eval`
-- [VirtualHome](https://github.com/xavierpuigf/virtualhome) ![stars](https://img.shields.io/github/stars/xavierpuigf/virtualhome?style=flat-square) - Household activity simulator with rich programmatic supervision. Tags: `embodied` `train+eval`
-- [AI2-THOR](https://github.com/allenai/ai2thor) ![stars](https://img.shields.io/github/stars/allenai/ai2thor?style=flat-square) - Interactive 3D environment for embodied AI tasks. Tags: `embodied` `train+eval`
-- [Habitat-Lab](https://github.com/facebookresearch/habitat-lab) ![stars](https://img.shields.io/github/stars/facebookresearch/habitat-lab?style=flat-square) - Research platform for embodied navigation and manipulation. Tags: `embodied` `train+eval`
-- [Habitat 2.0](https://aihabitat.org/) - Large-scale embodied benchmark stack integrating simulation, datasets, and tasks. Tags: `embodied` `train+eval`
-- [Isaac Gym](https://developer.nvidia.com/isaac-gym) - GPU-native robotics simulation for massively parallel RL. Tags: `embodied` `train`
-- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) ![stars](https://img.shields.io/github/stars/isaac-sim/IsaacLab?style=flat-square) - Successor stack for scalable robot learning and simulation on NVIDIA platforms. Tags: `embodied` `train`
-- [ManiSkill](https://github.com/haosulab/ManiSkill) ![stars](https://img.shields.io/github/stars/haosulab/ManiSkill?style=flat-square) - Fast, scalable benchmark suite for manipulation agents. Tags: `embodied` `train+eval`
-- [MineRL](https://github.com/minerllabs/minerl) ![stars](https://img.shields.io/github/stars/minerllabs/minerl?style=flat-square) - Minecraft benchmark and data ecosystem for long-horizon agents. Tags: `game` `train+eval`
-- [NetHack Learning Environment](https://github.com/facebookresearch/nle) ![stars](https://img.shields.io/github/stars/facebookresearch/nle?style=flat-square) - Roguelike benchmark for long-horizon exploration and planning. Tags: `game` `train+eval`
-- [DiscoveryWorld](https://github.com/allenai/discoveryworld) ![stars](https://img.shields.io/github/stars/allenai/discoveryworld?style=flat-square) - Open-ended simulated world for scientific and interactive reasoning. Tags: `science` `game` `train+eval`
-- [Sotopia](https://github.com/sotopia-lab/sotopia) ![stars](https://img.shields.io/github/stars/sotopia-lab/sotopia?style=flat-square) - Open-ended social learning environment for language agents. Tags: `social` `train+eval`
-- [Sotopia-pi](https://github.com/sotopia-lab/sotopia-pi) ![stars](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi?style=flat-square) - Preference and interaction stack extending Sotopia-style social evaluation. Tags: `social` `eval`
-- [ChatArena](https://github.com/Farama-Foundation/chatarena) ![stars](https://img.shields.io/github/stars/Farama-Foundation/chatarena?style=flat-square) - Multi-agent language game environments for collaboration and competition. Tags: `social` `train+eval`
-- [AdaSociety](https://github.com/bigai-ai/AdaSociety) ![stars](https://img.shields.io/github/stars/bigai-ai/AdaSociety?style=flat-square) - Multi-agent environment with expanding state/action spaces and explicit social structure. Tags: `social` `train+eval`
+### Synthetic Environments and Environment Scaling
 
-## Synthetic Environments and Environment Scaling
+- [OS-Genesis](https://arxiv.org/abs/2412.19723) - Reverse task synthesis pipeline for generating GUI-agent trajectories.
+- [EnvScaler](https://github.com/RUC-NLPIR/EnvScaler) [![GitHub Repo stars](https://img.shields.io/github/stars/RUC-NLPIR/EnvScaler)](https://github.com/RUC-NLPIR/EnvScaler) - Programmatic synthesis of tool-interactive environments and verifiable scenarios.
+- [ScaleEnv](https://arxiv.org/abs/2602.06820) - From-scratch synthesis of generalist tool-use environments with executable verification.
+- [Agent World Model](https://github.com/Snowflake-Labs/agent-world-model) [![GitHub Repo stars](https://img.shields.io/github/stars/Snowflake-Labs/agent-world-model)](https://github.com/Snowflake-Labs/agent-world-model) - Fully synthetic code-driven environments backed by databases and tool APIs.
+- [WebWorld](https://arxiv.org/abs/2602.14721) - Large-scale world model for open-web agent training.
+- [GUI-GENESIS](https://arxiv.org/abs/2602.14093) - Automated synthesis of efficient GUI environments with verifiable rewards.
+- [RLVE](https://github.com/Zhiyuan-Zeng/RLVE) [![GitHub Repo stars](https://img.shields.io/github/stars/Zhiyuan-Zeng/RLVE)](https://github.com/Zhiyuan-Zeng/RLVE) - Adaptive verifiable environments for reinforcement learning over language models.
+- [AgentScaler](https://arxiv.org/abs/2509.13311) - Environment scaling for function-calling and heterogeneous tool-use agents.
+- [WebDreamer](https://arxiv.org/abs/2411.06559) - Web world-model direction for simulated web interaction and planning.
+- [VirtualEnv](https://arxiv.org/abs/2601.07553) - Open-source embodied platform with procedurally generated tasks and game-inspired mechanics.
+- [Adaptive Environment Generation for Embodied Agents](https://arxiv.org/abs/2602.06366) - Adaptive scene generation driven by current agent competence.
+- [Dreamer 4](https://arxiv.org/abs/2509.24527) - Scalable world-model training in imagination, including complex Minecraft-style tasks.
+- [LLM-in-Sandbox](https://arxiv.org/abs/2601.16206) - General sandbox-first environment design showing broad gains from letting models explore a virtual computer.
 
-- [OS-Genesis](https://arxiv.org/abs/2412.19723) - Reverse task synthesis pipeline for generating GUI-agent trajectories. Tags: `gui` `synthetic` `train`
-- [EnvScaler](https://github.com/RUC-NLPIR/EnvScaler) ![stars](https://img.shields.io/github/stars/RUC-NLPIR/EnvScaler?style=flat-square) - Programmatic synthesis of tool-interactive environments and verifiable scenarios. Tags: `tool-use` `synthetic` `train`
-- [ScaleEnv](https://arxiv.org/abs/2602.06820) - From-scratch synthesis of generalist tool-use environments with executable verification. Tags: `tool-use` `synthetic` `train`
-- [Agent World Model](https://github.com/Snowflake-Labs/agent-world-model) ![stars](https://img.shields.io/github/stars/Snowflake-Labs/agent-world-model?style=flat-square) - Fully synthetic code-driven environments backed by databases and tool APIs. Tags: `tool-use` `synthetic` `train`
-- [WebWorld](https://arxiv.org/abs/2602.14721) - Large-scale world model for open-web agent training. Tags: `web` `world-model` `train`
-- [GUI-GENESIS](https://arxiv.org/abs/2602.14093) - Automated synthesis of efficient GUI environments with verifiable rewards. Tags: `gui` `synthetic` `train`
-- [RLVE](https://github.com/Zhiyuan-Zeng/RLVE) ![stars](https://img.shields.io/github/stars/Zhiyuan-Zeng/RLVE?style=flat-square) - Adaptive verifiable environments for reinforcement learning over language models. Tags: `synthetic` `train` `fully-verifiable`
-- [AgentScaler](https://arxiv.org/abs/2509.13311) - Environment scaling for function-calling and heterogeneous tool-use agents. Tags: `tool-use` `synthetic` `train`
-- [WebDreamer](https://arxiv.org/abs/2411.06559) - Web world-model direction for simulated web interaction and planning. Tags: `web` `world-model` `train`
-- [VirtualEnv](https://arxiv.org/abs/2601.07553) - Open-source embodied platform with procedurally generated tasks and game-inspired mechanics. Tags: `embodied` `synthetic` `train+eval`
-- [Adaptive Environment Generation for Embodied Agents](https://arxiv.org/abs/2602.06366) - Adaptive scene generation driven by current agent competence. Tags: `embodied` `synthetic` `train`
-- [Dreamer 4](https://arxiv.org/abs/2509.24527) - Scalable world-model training in imagination, including complex Minecraft-style tasks. Tags: `world-model` `embodied` `train`
-- [LLM-in-Sandbox](https://arxiv.org/abs/2601.16206) - General sandbox-first environment design showing broad gains from letting models explore a virtual computer. Tags: `sandbox` `synthetic` `train`
+### Runtime, Sandbox, and Isolation Infrastructure
 
-## Runtime, Sandbox, and Isolation Infrastructure
+- [OCI Runtime Spec](https://github.com/opencontainers/runtime-spec) [![GitHub Repo stars](https://img.shields.io/github/stars/opencontainers/runtime-spec)](https://github.com/opencontainers/runtime-spec) - Standard for how container runtimes launch and manage container bundles.
+- [OCI Image Spec](https://github.com/opencontainers/image-spec) [![GitHub Repo stars](https://img.shields.io/github/stars/opencontainers/image-spec)](https://github.com/opencontainers/image-spec) - Standard image format used across container-based agent environments.
+- [runc](https://github.com/opencontainers/runc) [![GitHub Repo stars](https://img.shields.io/github/stars/opencontainers/runc)](https://github.com/opencontainers/runc) - Reference OCI runtime used under much of the modern container stack.
+- [containerd](https://github.com/containerd/containerd) [![GitHub Repo stars](https://img.shields.io/github/stars/containerd/containerd)](https://github.com/containerd/containerd) - Core container runtime layer used by many sandboxed and orchestrated agent systems.
+- [Docker](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/) - The default container abstraction used across many agent benchmarks and training gyms.
+- [Firecracker](https://github.com/firecracker-microvm/firecracker) [![GitHub Repo stars](https://img.shields.io/github/stars/firecracker-microvm/firecracker)](https://github.com/firecracker-microvm/firecracker) - MicroVM runtime for stronger isolation than process-level containers.
+- [firecracker-containerd](https://github.com/firecracker-microvm/firecracker-containerd) [![GitHub Repo stars](https://img.shields.io/github/stars/firecracker-microvm/firecracker-containerd)](https://github.com/firecracker-microvm/firecracker-containerd) - Containerd integration for launching container workloads inside Firecracker microVMs.
+- [gVisor](https://github.com/google/gvisor) [![GitHub Repo stars](https://img.shields.io/github/stars/google/gvisor)](https://github.com/google/gvisor) - User-space kernel that hardens container isolation for untrusted workloads.
+- [Kata Containers](https://github.com/kata-containers/kata-containers) [![GitHub Repo stars](https://img.shields.io/github/stars/kata-containers/kata-containers)](https://github.com/kata-containers/kata-containers) - Lightweight VMs that look like containers to orchestration systems.
+- [Confidential Containers](https://github.com/confidential-containers) [![GitHub Repo stars](https://img.shields.io/github/stars/confidential-containers/trustee)](https://github.com/confidential-containers) - Confidential-computing stack for running container workloads inside attested trusted environments.
+- [E2B](https://github.com/e2b-dev/E2B) [![GitHub Repo stars](https://img.shields.io/github/stars/e2b-dev/E2B)](https://github.com/e2b-dev/E2B) - Managed cloud sandboxes for code-interpreter and agent workloads.
+- [E2B Desktop Sandbox](https://github.com/e2b-dev/desktop) [![GitHub Repo stars](https://img.shields.io/github/stars/e2b-dev/desktop)](https://github.com/e2b-dev/desktop) - Browser and desktop sandbox for computer-use style agents.
+- [Kubernetes Agent Sandbox](https://developers.googleblog.com/en/announcing-kubernetes-agent-sandbox/) - Google's direction for standardizing sandboxed agent runtimes on Kubernetes.
+- [Fault-Tolerant Sandboxing for LLM Agents](https://arxiv.org/abs/2512.12806) - Research on resilient sandbox execution for long-running agent systems.
 
-- [OCI Runtime Spec](https://github.com/opencontainers/runtime-spec) ![stars](https://img.shields.io/github/stars/opencontainers/runtime-spec?style=flat-square) - Standard for how container runtimes launch and manage container bundles. Tags: `runtime` `standard`
-- [OCI Image Spec](https://github.com/opencontainers/image-spec) ![stars](https://img.shields.io/github/stars/opencontainers/image-spec?style=flat-square) - Standard image format used across container-based agent environments. Tags: `runtime` `standard`
-- [runc](https://github.com/opencontainers/runc) ![stars](https://img.shields.io/github/stars/opencontainers/runc?style=flat-square) - Reference OCI runtime used under much of the modern container stack. Tags: `runtime`
-- [containerd](https://github.com/containerd/containerd) ![stars](https://img.shields.io/github/stars/containerd/containerd?style=flat-square) - Core container runtime layer used by many sandboxed and orchestrated agent systems. Tags: `runtime` `platform`
-- [Docker](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/) - The default container abstraction used across many agent benchmarks and training gyms. Tags: `sandbox` `runtime`
-- [Firecracker](https://github.com/firecracker-microvm/firecracker) ![stars](https://img.shields.io/github/stars/firecracker-microvm/firecracker?style=flat-square) - MicroVM runtime for stronger isolation than process-level containers. Tags: `sandbox` `runtime` `security`
-- [firecracker-containerd](https://github.com/firecracker-microvm/firecracker-containerd) ![stars](https://img.shields.io/github/stars/firecracker-microvm/firecracker-containerd?style=flat-square) - Containerd integration for launching container workloads inside Firecracker microVMs. Tags: `sandbox` `runtime`
-- [gVisor](https://github.com/google/gvisor) ![stars](https://img.shields.io/github/stars/google/gvisor?style=flat-square) - User-space kernel that hardens container isolation for untrusted workloads. Tags: `sandbox` `security`
-- [Kata Containers](https://github.com/kata-containers/kata-containers) ![stars](https://img.shields.io/github/stars/kata-containers/kata-containers?style=flat-square) - Lightweight VMs that look like containers to orchestration systems. Tags: `sandbox` `runtime`
-- [Confidential Containers](https://github.com/confidential-containers) ![stars](https://img.shields.io/github/stars/confidential-containers/trustee?style=flat-square) - Confidential-computing stack for running container workloads inside attested trusted environments. Tags: `sandbox` `security`
-- [E2B](https://github.com/e2b-dev/E2B) ![stars](https://img.shields.io/github/stars/e2b-dev/E2B?style=flat-square) - Managed cloud sandboxes for code-interpreter and agent workloads. Tags: `sandbox` `platform`
-- [E2B Desktop Sandbox](https://github.com/e2b-dev/desktop) ![stars](https://img.shields.io/github/stars/e2b-dev/desktop?style=flat-square) - Browser and desktop sandbox for computer-use style agents. Tags: `sandbox` `gui`
-- [Kubernetes Agent Sandbox](https://developers.googleblog.com/en/announcing-kubernetes-agent-sandbox/) - Google's direction for standardizing sandboxed agent runtimes on Kubernetes. Tags: `sandbox` `platform`
-- [Fault-Tolerant Sandboxing for LLM Agents](https://arxiv.org/abs/2512.12806) - Research on resilient sandbox execution for long-running agent systems. Tags: `sandbox` `security`
+### Orchestration, Serverless, and Platform Engineering
 
-## Orchestration, Serverless, and Platform Engineering
+- [Kubernetes](https://github.com/kubernetes/kubernetes) [![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes/kubernetes)](https://github.com/kubernetes/kubernetes) - The default cluster orchestrator for multi-tenant agent runtimes and sandbox scheduling.
+- [Knative](https://github.com/knative/serving) [![GitHub Repo stars](https://img.shields.io/github/stars/knative/serving)](https://github.com/knative/serving) - Serverless layer on Kubernetes for request-driven workloads and elastic agent backends.
+- [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) - Serverless compute platform that publicly documents microVM-backed execution and snapshotting.
+- [Cloudflare Workers](https://developers.cloudflare.com/workers/reference/how-workers-works/) - Isolate-based edge execution model relevant to ultra-fast agent sandboxing.
+- [Borg](https://research.google/pubs/large-scale-cluster-management-at-google-with-borg/) - Foundational cluster-management paper shaping later orchestration systems used for large agent fleets.
 
-- [Kubernetes](https://github.com/kubernetes/kubernetes) ![stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=flat-square) - The default cluster orchestrator for multi-tenant agent runtimes and sandbox scheduling. Tags: `platform` `orchestration`
-- [Knative](https://github.com/knative/serving) ![stars](https://img.shields.io/github/stars/knative/serving?style=flat-square) - Serverless layer on Kubernetes for request-driven workloads and elastic agent backends. Tags: `platform` `orchestration` `serverless`
-- [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) - Serverless compute platform that publicly documents microVM-backed execution and snapshotting. Tags: `platform` `serverless`
-- [Cloudflare Workers](https://developers.cloudflare.com/workers/reference/how-workers-works/) - Isolate-based edge execution model relevant to ultra-fast agent sandboxing. Tags: `platform` `serverless`
-- [Borg](https://research.google/pubs/large-scale-cluster-management-at-google-with-borg/) - Foundational cluster-management paper shaping later orchestration systems used for large agent fleets. Tags: `platform` `orchestration`
+### Protocols, Standards, and Capability Interfaces
 
-## Protocols, Standards, and Capability Interfaces
+- [Model Context Protocol](https://modelcontextprotocol.io/) - Standardized capability interface for connecting models to tools, data, and external systems.
+- [Wasmtime](https://github.com/bytecodealliance/wasmtime) [![GitHub Repo stars](https://img.shields.io/github/stars/bytecodealliance/wasmtime)](https://github.com/bytecodealliance/wasmtime) - WebAssembly runtime that enables portable capability-bounded execution.
+- [WASI](https://github.com/WebAssembly/WASI) [![GitHub Repo stars](https://img.shields.io/github/stars/WebAssembly/WASI)](https://github.com/WebAssembly/WASI) - Capability-oriented system interface for WebAssembly modules.
+- [Bytecode Alliance](https://github.com/bytecodealliance) - Consortium driving portable and capability-safe Wasm execution ecosystems.
+- [Open Container Initiative](https://github.com/opencontainers) - Standards body behind the container formats and runtime interfaces that underpin many agent sandboxes.
 
-- [Model Context Protocol](https://modelcontextprotocol.io/) - Standardized capability interface for connecting models to tools, data, and external systems. Tags: `protocol` `standard`
-- [Wasmtime](https://github.com/bytecodealliance/wasmtime) ![stars](https://img.shields.io/github/stars/bytecodealliance/wasmtime?style=flat-square) - WebAssembly runtime that enables portable capability-bounded execution. Tags: `protocol` `runtime`
-- [WASI](https://github.com/WebAssembly/WASI) ![stars](https://img.shields.io/github/stars/WebAssembly/WASI?style=flat-square) - Capability-oriented system interface for WebAssembly modules. Tags: `protocol` `standard`
-- [Bytecode Alliance](https://github.com/bytecodealliance) - Consortium driving portable and capability-safe Wasm execution ecosystems. Tags: `protocol` `standard`
-- [Open Container Initiative](https://github.com/opencontainers) - Standards body behind the container formats and runtime interfaces that underpin many agent sandboxes. Tags: `protocol` `standard`
+### Observability and Debugging
 
-## Observability and Debugging
+- [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-specification) [![GitHub Repo stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification)](https://github.com/open-telemetry/opentelemetry-specification) - Unified traces, metrics, and logs specification for distributed agent platforms.
+- [eBPF](https://ebpf.io/) - Kernel-level programmable observability layer widely used for container and sandbox introspection.
+- [Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) - Windows activity tracing tool useful for understanding GUI-agent side effects and OS interactions.
+- [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) - Broader Windows diagnostic toolkit family for agent-environment debugging.
+- [S2E](https://github.com/S2E/s2e) [![GitHub Repo stars](https://img.shields.io/github/stars/S2E/s2e)](https://github.com/S2E/s2e) - Selective symbolic execution platform for deep system analysis and adversarial environment testing.
+- [Kubernetes Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/) - Standard pattern for debugging slim or distroless agent runtime pods in place.
 
-- [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-specification) ![stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification?style=flat-square) - Unified traces, metrics, and logs specification for distributed agent platforms. Tags: `observability` `standard`
-- [eBPF](https://ebpf.io/) - Kernel-level programmable observability layer widely used for container and sandbox introspection. Tags: `observability`
-- [Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) - Windows activity tracing tool useful for understanding GUI-agent side effects and OS interactions. Tags: `observability` `gui`
-- [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) - Broader Windows diagnostic toolkit family for agent-environment debugging. Tags: `observability` `gui`
-- [S2E](https://github.com/S2E/s2e) ![stars](https://img.shields.io/github/stars/S2E/s2e?style=flat-square) - Selective symbolic execution platform for deep system analysis and adversarial environment testing. Tags: `observability` `security`
-- [Kubernetes Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/) - Standard pattern for debugging slim or distroless agent runtime pods in place. Tags: `observability` `orchestration`
+### Evaluation Harnesses and Companion Ecosystems
 
-## Evaluation Harnesses and Companion Ecosystems
+- [BrowserGym](https://github.com/ServiceNow/BrowserGym) [![GitHub Repo stars](https://img.shields.io/github/stars/ServiceNow/BrowserGym)](https://github.com/ServiceNow/BrowserGym) - Unified Gym-style interface spanning multiple browser and enterprise environments.
+- [AgentLab](https://github.com/ServiceNow/AgentLab) [![GitHub Repo stars](https://img.shields.io/github/stars/ServiceNow/AgentLab)](https://github.com/ServiceNow/AgentLab) - Experiment and evaluation layer built around BrowserGym environments.
+- [OpenHands Benchmarks](https://github.com/OpenHands/benchmarks) [![GitHub Repo stars](https://img.shields.io/github/stars/OpenHands/benchmarks)](https://github.com/OpenHands/benchmarks) - Benchmark collections and execution harnesses for coding and agent tasks.
+- [AgentRewardBench](https://github.com/McGill-NLP/agent-reward-bench) [![GitHub Repo stars](https://img.shields.io/github/stars/McGill-NLP/agent-reward-bench)](https://github.com/McGill-NLP/agent-reward-bench) - Reward-model benchmark tailored to agent trajectories and task outcomes.
+- [tale-suite](https://github.com/microsoft/tale-suite) [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/tale-suite)](https://github.com/microsoft/tale-suite) - Task and agent lifecycle evaluation suite for agentic systems.
+- [METR Task Standard](https://github.com/METR/task-standard) [![GitHub Repo stars](https://img.shields.io/github/stars/METR/task-standard)](https://github.com/METR/task-standard) - Task specification standard aimed at more reproducible agent evaluation.
+- [PettingZoo](https://github.com/Farama-Foundation/PettingZoo) [![GitHub Repo stars](https://img.shields.io/github/stars/Farama-Foundation/PettingZoo)](https://github.com/Farama-Foundation/PettingZoo) - Standard API and reference environments for multi-agent RL research.
+- [GroundCUA](https://github.com/ServiceNow/GroundCUA) [![GitHub Repo stars](https://img.shields.io/github/stars/ServiceNow/GroundCUA)](https://github.com/ServiceNow/GroundCUA) - Grounding and dataset layer for computer-use agents, complementary to GUI environments.
 
-- [BrowserGym](https://github.com/ServiceNow/BrowserGym) ![stars](https://img.shields.io/github/stars/ServiceNow/BrowserGym?style=flat-square) - Unified Gym-style interface spanning multiple browser and enterprise environments. Tags: `harness` `web` `train+eval`
-- [AgentLab](https://github.com/ServiceNow/AgentLab) ![stars](https://img.shields.io/github/stars/ServiceNow/AgentLab?style=flat-square) - Experiment and evaluation layer built around BrowserGym environments. Tags: `harness` `web` `eval`
-- [OpenHands Benchmarks](https://github.com/OpenHands/benchmarks) ![stars](https://img.shields.io/github/stars/OpenHands/benchmarks?style=flat-square) - Benchmark collections and execution harnesses for coding and agent tasks. Tags: `harness` `coding` `eval`
-- [AgentRewardBench](https://github.com/McGill-NLP/agent-reward-bench) ![stars](https://img.shields.io/github/stars/McGill-NLP/agent-reward-bench?style=flat-square) - Reward-model benchmark tailored to agent trajectories and task outcomes. Tags: `harness` `eval`
-- [tale-suite](https://github.com/microsoft/tale-suite) ![stars](https://img.shields.io/github/stars/microsoft/tale-suite?style=flat-square) - Task and agent lifecycle evaluation suite for agentic systems. Tags: `harness` `eval`
-- [METR Task Standard](https://github.com/METR/task-standard) ![stars](https://img.shields.io/github/stars/METR/task-standard?style=flat-square) - Task specification standard aimed at more reproducible agent evaluation. Tags: `harness` `standard`
-- [PettingZoo](https://github.com/Farama-Foundation/PettingZoo) ![stars](https://img.shields.io/github/stars/Farama-Foundation/PettingZoo?style=flat-square) - Standard API and reference environments for multi-agent RL research. Tags: `harness` `social`
-- [GroundCUA](https://github.com/ServiceNow/GroundCUA) ![stars](https://img.shields.io/github/stars/ServiceNow/GroundCUA?style=flat-square) - Grounding and dataset layer for computer-use agents, complementary to GUI environments. Tags: `harness` `gui`
+### Safety, Security, and Robustness
 
-## Safety, Security, and Robustness
+- [AgentDojo](https://github.com/ethz-spylab/agentdojo) [![GitHub Repo stars](https://img.shields.io/github/stars/ethz-spylab/agentdojo)](https://github.com/ethz-spylab/agentdojo) - Security benchmark for tool-using agents under adversarial and policy-constrained settings.
+- [DoomArena](https://github.com/ServiceNow/DoomArena) [![GitHub Repo stars](https://img.shields.io/github/stars/ServiceNow/DoomArena)](https://github.com/ServiceNow/DoomArena) - Stress-testing environment for robust and adversarial browser-agent behavior.
+- [ASB](https://github.com/agiresearch/ASB) [![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/ASB)](https://github.com/agiresearch/ASB) - Agent security benchmark suite for evaluating attack surfaces and unsafe behavior.
+- [DefenderBench](https://github.com/microsoft/DefenderBench) [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/DefenderBench)](https://github.com/microsoft/DefenderBench) - Defensive evaluation benchmark for agent systems operating under security constraints.
+- [ToolEmu](https://github.com/ryoungj/ToolEmu) [![GitHub Repo stars](https://img.shields.io/github/stars/ryoungj/ToolEmu)](https://github.com/ryoungj/ToolEmu) - Sandbox for emulating risky tool-use scenarios and evaluating tool-agent safety.
+- [OS-Harm](https://github.com/tml-epfl/os-harm) [![GitHub Repo stars](https://img.shields.io/github/stars/tml-epfl/os-harm)](https://github.com/tml-epfl/os-harm) - Harm benchmark for computer-use agents operating over OS-like environments.
 
-- [AgentDojo](https://github.com/ethz-spylab/agentdojo) ![stars](https://img.shields.io/github/stars/ethz-spylab/agentdojo?style=flat-square) - Security benchmark for tool-using agents under adversarial and policy-constrained settings. Tags: `security` `tool-use` `eval`
-- [DoomArena](https://github.com/ServiceNow/DoomArena) ![stars](https://img.shields.io/github/stars/ServiceNow/DoomArena?style=flat-square) - Stress-testing environment for robust and adversarial browser-agent behavior. Tags: `security` `web` `eval`
-- [ASB](https://github.com/agiresearch/ASB) ![stars](https://img.shields.io/github/stars/agiresearch/ASB?style=flat-square) - Agent security benchmark suite for evaluating attack surfaces and unsafe behavior. Tags: `security` `eval`
-- [DefenderBench](https://github.com/microsoft/DefenderBench) ![stars](https://img.shields.io/github/stars/microsoft/DefenderBench?style=flat-square) - Defensive evaluation benchmark for agent systems operating under security constraints. Tags: `security` `eval`
-- [ToolEmu](https://github.com/ryoungj/ToolEmu) ![stars](https://img.shields.io/github/stars/ryoungj/ToolEmu?style=flat-square) - Sandbox for emulating risky tool-use scenarios and evaluating tool-agent safety. Tags: `security` `tool-use` `llm-sim`
-- [OS-Harm](https://github.com/tml-epfl/os-harm) ![stars](https://img.shields.io/github/stars/tml-epfl/os-harm?style=flat-square) - Harm benchmark for computer-use agents operating over OS-like environments. Tags: `security` `gui` `eval`
+## Supporting Material
 
-## Surveys and Reading Lists
+### Surveys and Reading Lists
 
 - [Taxonomy Notes](docs/taxonomy.md) - Chinese notes on definitions, classification axes, development patterns, and construction methods.
 - [Environment Scaling for Interactive Agentic Experience Collection: A Survey](https://arxiv.org/abs/2511.09586) - Survey centered on environment scaling as a training axis.
-- [A Compendium of LLM Benchmarks for Agents](https://github.com/philschmid/ai-agent-benchmark-compendium) ![stars](https://img.shields.io/github/stars/philschmid/ai-agent-benchmark-compendium?style=flat-square) - Broad benchmark map with many adjacent agent-evaluation resources.
-- [GUI Agents Paper List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) ![stars](https://img.shields.io/github/stars/OSU-NLP-Group/GUI-Agents-Paper-List?style=flat-square) - Curated reading list for GUI-agent research.
-- [AgentSafety Paper List](https://github.com/OSU-NLP-Group/AgentSafety_Papers) ![stars](https://img.shields.io/github/stars/OSU-NLP-Group/AgentSafety_Papers?style=flat-square) - Reading list focused on agent safety and security.
+- [A Compendium of LLM Benchmarks for Agents](https://github.com/philschmid/ai-agent-benchmark-compendium) [![GitHub Repo stars](https://img.shields.io/github/stars/philschmid/ai-agent-benchmark-compendium)](https://github.com/philschmid/ai-agent-benchmark-compendium) - Broad benchmark map with many adjacent agent-evaluation resources.
+- [GUI Agents Paper List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) [![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/GUI-Agents-Paper-List)](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) - Curated reading list for GUI-agent research.
+- [AgentSafety Paper List](https://github.com/OSU-NLP-Group/AgentSafety) [![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/AgentSafety)](https://github.com/OSU-NLP-Group/AgentSafety) - Reading list focused on agent safety and security.
 
-## Contributing
+### Contributing
 
 Contributions are welcome. A good contribution usually includes:
 
 - the official repository, project page, or paper link
 - a one-line description of what the environment contributes
-- primary tags for fidelity, domain, purpose, and verifiability
 - a rationale for why the project belongs here as an environment, environment builder, sandbox, or harness
 
-If a project fits multiple sections, prefer one primary section and use tags instead of duplicating it everywhere.
+If a project fits multiple sections, prefer one primary section instead of duplicating it everywhere.

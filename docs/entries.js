@@ -2,7 +2,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "OpenAI Gym",
     "url": "https://github.com/openai/gym",
-    "badge": "https://img.shields.io/github/stars/openai/gym?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/openai/gym",
     "description": "The original de facto standard API for reinforcement learning environments.",
     "tags": [
       "platform",
@@ -16,7 +16,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Gymnasium",
     "url": "https://github.com/Farama-Foundation/Gymnasium",
-    "badge": "https://img.shields.io/github/stars/Farama-Foundation/Gymnasium?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/Farama-Foundation/Gymnasium",
     "description": "Community-maintained continuation of Gym with modernized APIs and compatibility.",
     "tags": [
       "platform",
@@ -30,7 +30,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AEnvironment",
     "url": "https://github.com/inclusionAI/AEnvironment",
-    "badge": "https://img.shields.io/github/stars/inclusionAI/AEnvironment?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/inclusionAI/AEnvironment",
     "description": "Standardized environment infrastructure for Agentic AI development.",
     "tags": [
       "platform",
@@ -43,7 +43,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AgentBench",
     "url": "https://github.com/THUDM/AgentBench",
-    "badge": "https://img.shields.io/github/stars/THUDM/AgentBench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/THUDM/AgentBench",
     "description": "Early broad benchmark suite covering multiple agent settings and task families.",
     "tags": [
       "platform",
@@ -56,7 +56,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "VisualAgentBench",
     "url": "https://github.com/THUDM/VisualAgentBench",
-    "badge": "https://img.shields.io/github/stars/THUDM/VisualAgentBench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/THUDM/VisualAgentBench",
     "description": "Visual and multimodal benchmark family for environment-grounded agents.",
     "tags": [
       "platform",
@@ -70,7 +70,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "CRAB",
     "url": "https://github.com/camel-ai/crab",
-    "badge": "https://img.shields.io/github/stars/camel-ai/crab?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/camel-ai/crab",
     "description": "A cross-environment benchmark for computer-use and embodied-style agent tasks.",
     "tags": [
       "platform",
@@ -83,7 +83,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Procgen Benchmark",
     "url": "https://github.com/openai/procgen",
-    "badge": "https://img.shields.io/github/stars/openai/procgen?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/openai/procgen",
     "description": "Procedurally generated RL benchmark emphasizing generalization across environment instances.",
     "tags": [
       "platform",
@@ -97,7 +97,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "MiniGrid",
     "url": "https://github.com/Farama-Foundation/Minigrid",
-    "badge": "https://img.shields.io/github/stars/Farama-Foundation/Minigrid?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/Farama-Foundation/Minigrid",
     "description": "Lightweight gridworld benchmark for instruction following and planning.",
     "tags": [
       "platform",
@@ -111,7 +111,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "EnvPool",
     "url": "https://github.com/sail-sg/envpool",
-    "badge": "https://img.shields.io/github/stars/sail-sg/envpool?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/sail-sg/envpool",
     "description": "High-throughput environment execution engine for large-scale RL training.",
     "tags": [
       "platform",
@@ -124,7 +124,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "RLlib",
     "url": "https://github.com/ray-project/ray",
-    "badge": "https://img.shields.io/github/stars/ray-project/ray?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/ray-project/ray",
     "description": "Distributed RL and agent framework with strong environment-parallelism abstractions.",
     "tags": [
       "platform",
@@ -137,7 +137,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Acme",
     "url": "https://github.com/google-deepmind/acme",
-    "badge": "https://img.shields.io/github/stars/google-deepmind/acme?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/google-deepmind/acme",
     "description": "DeepMind's RL framework for modular agents, actors, and environments.",
     "tags": [
       "platform",
@@ -150,7 +150,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "NVIDIA NeMo Gym",
     "url": "https://github.com/NVIDIA-NeMo/Gym",
-    "badge": "https://img.shields.io/github/stars/NVIDIA-NeMo/Gym?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/NVIDIA-NeMo/Gym",
     "description": "Gym-style infrastructure for training and evaluating agentic systems.",
     "tags": [
       "platform",
@@ -163,7 +163,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "MiniWoB++",
     "url": "https://github.com/Farama-Foundation/miniwob-plusplus",
-    "badge": "https://img.shields.io/github/stars/Farama-Foundation/miniwob-plusplus?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/Farama-Foundation/miniwob-plusplus",
     "description": "Canonical lightweight browser tasks for web interaction agents.",
     "tags": [
       "web",
@@ -177,7 +177,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "WebShop",
     "url": "https://github.com/princeton-nlp/WebShop",
-    "badge": "https://img.shields.io/github/stars/princeton-nlp/WebShop?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/princeton-nlp/WebShop",
     "description": "Shopping environment for instruction following and decision making on realistic storefronts.",
     "tags": [
       "web",
@@ -191,7 +191,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Mind2Web",
     "url": "https://github.com/OSU-NLP-Group/Mind2Web",
-    "badge": "https://img.shields.io/github/stars/OSU-NLP-Group/Mind2Web?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/OSU-NLP-Group/Mind2Web",
     "description": "Real-world web task dataset and benchmark grounded in live websites.",
     "tags": [
       "web",
@@ -217,7 +217,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "WebArena",
     "url": "https://github.com/web-arena-x/webarena",
-    "badge": "https://img.shields.io/github/stars/web-arena-x/webarena?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/web-arena-x/webarena",
     "description": "Self-hostable benchmark built from cloned web services.",
     "tags": [
       "web",
@@ -231,7 +231,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "WebArena-Infinity",
     "url": "https://github.com/web-arena-x/webarena-infinity",
-    "badge": "https://img.shields.io/github/stars/web-arena-x/webarena-infinity?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/web-arena-x/webarena-infinity",
     "description": "Generating browser environments with verifiable tasks at scale using multi-agent automation.",
     "tags": [
       "web",
@@ -245,7 +245,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "VisualWebArena",
     "url": "https://github.com/web-arena-x/visualwebarena",
-    "badge": "https://img.shields.io/github/stars/web-arena-x/visualwebarena?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/web-arena-x/visualwebarena",
     "description": "Multimodal extension of WebArena with richer visual grounding.",
     "tags": [
       "web",
@@ -258,7 +258,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "WebVoyager",
     "url": "https://github.com/MinorJerry/WebVoyager",
-    "badge": "https://img.shields.io/github/stars/MinorJerry/WebVoyager?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/MinorJerry/WebVoyager",
     "description": "Open-web browsing benchmark and agent setup for realistic live website interaction.",
     "tags": [
       "web",
@@ -272,7 +272,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "WorkArena",
     "url": "https://github.com/ServiceNow/WorkArena",
-    "badge": "https://img.shields.io/github/stars/ServiceNow/WorkArena?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/ServiceNow/WorkArena",
     "description": "BrowserGym-compatible enterprise web tasks built on ServiceNow workflows.",
     "tags": [
       "web",
@@ -312,7 +312,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "WebLINX",
     "url": "https://github.com/McGill-NLP/WebLINX",
-    "badge": "https://img.shields.io/github/stars/McGill-NLP/WebLINX?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/McGill-NLP/WebLINX",
     "description": "Browser interaction benchmark and dataset focused on long, realistic web sessions.",
     "tags": [
       "web",
@@ -324,7 +324,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "FieldWorkArena",
     "url": "https://github.com/FujitsuResearch/FieldWorkArena",
-    "badge": "https://img.shields.io/github/stars/FujitsuResearch/FieldWorkArena?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/FujitsuResearch/FieldWorkArena",
     "description": "Benchmark for field-service style workflows conducted through enterprise web interfaces.",
     "tags": [
       "web",
@@ -349,7 +349,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "OSWorld",
     "url": "https://github.com/xlang-ai/OSWorld",
-    "badge": "https://img.shields.io/github/stars/xlang-ai/OSWorld?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/xlang-ai/OSWorld",
     "description": "Full operating-system benchmark with real desktop applications and scripted verification.",
     "tags": [
       "gui",
@@ -363,7 +363,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "WindowsAgentArena",
     "url": "https://github.com/microsoft/WindowsAgentArena",
-    "badge": "https://img.shields.io/github/stars/microsoft/WindowsAgentArena?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/microsoft/WindowsAgentArena",
     "description": "Windows-native desktop benchmark for GUI agents.",
     "tags": [
       "gui",
@@ -376,7 +376,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AndroidWorld",
     "url": "https://github.com/google-research/android_world",
-    "badge": "https://img.shields.io/github/stars/google-research/android_world?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/google-research/android_world",
     "description": "Android task suite for mobile agent evaluation and training.",
     "tags": [
       "mobile",
@@ -413,7 +413,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "SWE-bench",
     "url": "https://github.com/SWE-bench/SWE-bench",
-    "badge": "https://img.shields.io/github/stars/SWE-bench/SWE-bench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/SWE-bench/SWE-bench",
     "description": "Standard issue-resolution benchmark built from real GitHub repositories and tests.",
     "tags": [
       "coding",
@@ -427,7 +427,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "SWE-Gym",
     "url": "https://github.com/SWE-Gym/SWE-Gym",
-    "badge": "https://img.shields.io/github/stars/SWE-Gym/SWE-Gym?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/SWE-Gym/SWE-Gym",
     "description": "Public training environment for software engineering agents and verifiers.",
     "tags": [
       "coding",
@@ -440,7 +440,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "R2E-Gym",
     "url": "https://github.com/R2E-Gym/R2E-Gym",
-    "badge": "https://img.shields.io/github/stars/R2E-Gym/R2E-Gym?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/R2E-Gym/R2E-Gym",
     "description": "Procedural environment generation and hybrid verifiers for open-weight SWE agents.",
     "tags": [
       "coding",
@@ -454,7 +454,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Debug-Gym",
     "url": "https://github.com/microsoft/debug-gym",
-    "badge": "https://img.shields.io/github/stars/microsoft/debug-gym?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/microsoft/debug-gym",
     "description": "Text-based interactive debugging environment with debugger-aware agent loops.",
     "tags": [
       "coding",
@@ -467,7 +467,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Hybrid-Gym",
     "url": "https://github.com/yiqingxyq/Hybrid-Gym",
-    "badge": "https://img.shields.io/github/stars/yiqingxyq/Hybrid-Gym?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/yiqingxyq/Hybrid-Gym",
     "description": "Coding-agent training environment aimed at cross-task generalization.",
     "tags": [
       "coding",
@@ -479,7 +479,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Terminal-Bench",
     "url": "https://github.com/laude-institute/terminal-bench",
-    "badge": "https://img.shields.io/github/stars/laude-institute/terminal-bench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/laude-institute/terminal-bench",
     "description": "Verifiable terminal benchmark for shell-based agents.",
     "tags": [
       "terminal",
@@ -492,7 +492,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "TerminalTraj",
     "url": "https://github.com/Wusiwei0410/TerminalTraj",
-    "badge": "https://img.shields.io/github/stars/Wusiwei0410/TerminalTraj?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/Wusiwei0410/TerminalTraj",
     "description": "Large-scale verified terminal trajectories collected from dockerized environments.",
     "tags": [
       "terminal",
@@ -505,7 +505,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "MLE-bench",
     "url": "https://github.com/openai/mle-bench",
-    "badge": "https://img.shields.io/github/stars/openai/mle-bench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/openai/mle-bench",
     "description": "End-to-end machine learning engineering benchmark.",
     "tags": [
       "coding",
@@ -518,7 +518,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "MLE-Dojo",
     "url": "https://github.com/MLE-Dojo/MLE-Dojo",
-    "badge": "https://img.shields.io/github/stars/MLE-Dojo/MLE-Dojo?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/MLE-Dojo/MLE-Dojo",
     "description": "Training and evaluation environment for ML engineering agents.",
     "tags": [
       "coding",
@@ -531,7 +531,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "MLGym",
     "url": "https://github.com/facebookresearch/MLGym",
-    "badge": "https://img.shields.io/github/stars/facebookresearch/MLGym?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/facebookresearch/MLGym",
     "description": "Gym-style benchmark for ML research and engineering tasks.",
     "tags": [
       "coding",
@@ -544,7 +544,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "GitTaskBench",
     "url": "https://github.com/QuantaAlpha/GitTaskBench",
-    "badge": "https://img.shields.io/github/stars/QuantaAlpha/GitTaskBench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/QuantaAlpha/GitTaskBench",
     "description": "Git-centric task benchmark for repository manipulation agents.",
     "tags": [
       "coding",
@@ -557,7 +557,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "SWE-Factory",
     "url": "https://github.com/DeepSoftwareAnalytics/swe-factory",
-    "badge": "https://img.shields.io/github/stars/DeepSoftwareAnalytics/swe-factory?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/DeepSoftwareAnalytics/swe-factory",
     "description": "Automated factory for issue-resolution training data and benchmark generation.",
     "tags": [
       "coding",
@@ -570,7 +570,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "tau-bench",
     "url": "https://github.com/sierra-research/tau-bench",
-    "badge": "https://img.shields.io/github/stars/sierra-research/tau-bench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/sierra-research/tau-bench",
     "description": "Tool-use benchmark centered on customer-support and business-rule-heavy agent tasks.",
     "tags": [
       "tool-use",
@@ -583,7 +583,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "tau2-bench",
     "url": "https://github.com/sierra-research/tau2-bench",
-    "badge": "https://img.shields.io/github/stars/sierra-research/tau2-bench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/sierra-research/tau2-bench",
     "description": "Harder successor benchmark with dual-control and richer environment dynamics.",
     "tags": [
       "tool-use",
@@ -595,7 +595,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Tau^3-bench",
     "url": "https://github.com/sierra-research/tau2-bench",
-    "badge": "https://img.shields.io/github/stars/sierra-research/tau2-bench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/sierra-research/tau2-bench",
     "description": "Harder successor benchmark to τ²-bench adding full-duplex voice interaction, knowledge retrieval, and refined task quality.",
     "tags": [
       "tool-use",
@@ -607,7 +607,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AppWorld",
     "url": "https://github.com/StonyBrookNLP/appworld",
-    "badge": "https://img.shields.io/github/stars/StonyBrookNLP/appworld?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/StonyBrookNLP/appworld",
     "description": "App-centric benchmark for multi-tool and multi-app task completion.",
     "tags": [
       "tool-use",
@@ -619,7 +619,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Toolathlon",
     "url": "https://github.com/hkust-nlp/Toolathlon",
-    "badge": "https://img.shields.io/github/stars/hkust-nlp/Toolathlon?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/hkust-nlp/Toolathlon",
     "description": "A benchmark for language agents featuring 600+ diverse tools across 32 real-world software applications with long-horizon tasks and execution-based evaluation.",
     "tags": [
       "tool-use",
@@ -632,7 +632,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "ToolSandbox",
     "url": "https://github.com/apple/ToolSandbox",
-    "badge": "https://img.shields.io/github/stars/apple/ToolSandbox?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/apple/ToolSandbox",
     "description": "Controlled environment for tool-using agents with rich API-level task design.",
     "tags": [
       "tool-use",
@@ -644,7 +644,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "MCP-Universe",
     "url": "https://github.com/SalesforceAIResearch/MCP-Universe",
-    "badge": "https://img.shields.io/github/stars/SalesforceAIResearch/MCP-Universe?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/SalesforceAIResearch/MCP-Universe",
     "description": "Benchmarking framework using real-world MCP servers instead of simulated tools.",
     "tags": [
       "tool-use",
@@ -657,7 +657,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "MCPMark",
     "url": "https://github.com/eval-sys/mcpmark",
-    "badge": "https://img.shields.io/github/stars/eval-sys/mcpmark?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/eval-sys/mcpmark",
     "description": "A comprehensive evaluation suite for agentic models that stress-tests tool usage across real MCP services like Notion, GitHub, and Postgres.",
     "tags": [
       "tool-use",
@@ -670,7 +670,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Toucan",
     "url": "https://github.com/TheAgentArk/Toucan",
-    "badge": "https://img.shields.io/github/stars/TheAgentArk/Toucan?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/TheAgentArk/Toucan",
     "description": "Environment and data generation pipeline around real MCP-style tool ecosystems.",
     "tags": [
       "tool-use",
@@ -683,7 +683,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "TheAgentCompany",
     "url": "https://github.com/TheAgentCompany/TheAgentCompany",
-    "badge": "https://img.shields.io/github/stars/TheAgentCompany/TheAgentCompany?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/TheAgentCompany/TheAgentCompany",
     "description": "Enterprise-style benchmark covering long-horizon workplace tasks.",
     "tags": [
       "enterprise",
@@ -695,7 +695,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "OfficeBench",
     "url": "https://github.com/zlwang-cs/OfficeBench",
-    "badge": "https://img.shields.io/github/stars/zlwang-cs/OfficeBench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/zlwang-cs/OfficeBench",
     "description": "Office productivity benchmark spanning documents, spreadsheets, slides, and email-style tasks.",
     "tags": [
       "enterprise",
@@ -707,7 +707,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "ScienceBoard",
     "url": "https://github.com/OS-Copilot/ScienceBoard",
-    "badge": "https://img.shields.io/github/stars/OS-Copilot/ScienceBoard?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/OS-Copilot/ScienceBoard",
     "description": "Scientific workflow environment for research-task agents.",
     "tags": [
       "science",
@@ -720,7 +720,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "TextWorld",
     "url": "https://github.com/microsoft/TextWorld",
-    "badge": "https://img.shields.io/github/stars/microsoft/TextWorld?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/microsoft/TextWorld",
     "description": "Text-based reinforcement learning framework for interactive fiction and long-horizon reasoning.",
     "tags": [
       "game",
@@ -732,7 +732,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "ScienceWorld",
     "url": "https://github.com/allenai/ScienceWorld",
-    "badge": "https://img.shields.io/github/stars/allenai/ScienceWorld?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/allenai/ScienceWorld",
     "description": "Text-based scientific experimentation environment.",
     "tags": [
       "science",
@@ -745,7 +745,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "ALFWorld",
     "url": "https://github.com/alfworld/alfworld",
-    "badge": "https://img.shields.io/github/stars/alfworld/alfworld?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/alfworld/alfworld",
     "description": "Text + embodied household benchmark bridging language and action.",
     "tags": [
       "embodied",
@@ -757,7 +757,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "VirtualHome",
     "url": "https://github.com/xavierpuigf/virtualhome",
-    "badge": "https://img.shields.io/github/stars/xavierpuigf/virtualhome?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/xavierpuigf/virtualhome",
     "description": "Household activity simulator with rich programmatic supervision.",
     "tags": [
       "embodied",
@@ -769,7 +769,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AI2-THOR",
     "url": "https://github.com/allenai/ai2thor",
-    "badge": "https://img.shields.io/github/stars/allenai/ai2thor?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/allenai/ai2thor",
     "description": "Interactive 3D environment for embodied AI tasks.",
     "tags": [
       "embodied",
@@ -781,7 +781,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Habitat-Lab",
     "url": "https://github.com/facebookresearch/habitat-lab",
-    "badge": "https://img.shields.io/github/stars/facebookresearch/habitat-lab?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/facebookresearch/habitat-lab",
     "description": "Research platform for embodied navigation and manipulation.",
     "tags": [
       "embodied",
@@ -817,7 +817,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Isaac Lab",
     "url": "https://github.com/isaac-sim/IsaacLab",
-    "badge": "https://img.shields.io/github/stars/isaac-sim/IsaacLab?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/isaac-sim/IsaacLab",
     "description": "Successor stack for scalable robot learning and simulation on NVIDIA platforms.",
     "tags": [
       "embodied",
@@ -829,7 +829,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "ManiSkill",
     "url": "https://github.com/haosulab/ManiSkill",
-    "badge": "https://img.shields.io/github/stars/haosulab/ManiSkill?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/haosulab/ManiSkill",
     "description": "Fast, scalable benchmark suite for manipulation agents.",
     "tags": [
       "embodied",
@@ -841,7 +841,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "MineRL",
     "url": "https://github.com/minerllabs/minerl",
-    "badge": "https://img.shields.io/github/stars/minerllabs/minerl?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/minerllabs/minerl",
     "description": "Minecraft benchmark and data ecosystem for long-horizon agents.",
     "tags": [
       "game",
@@ -853,7 +853,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "NetHack Learning Environment",
     "url": "https://github.com/facebookresearch/nle",
-    "badge": "https://img.shields.io/github/stars/facebookresearch/nle?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/facebookresearch/nle",
     "description": "Roguelike benchmark for long-horizon exploration and planning.",
     "tags": [
       "game",
@@ -865,7 +865,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "DiscoveryWorld",
     "url": "https://github.com/allenai/discoveryworld",
-    "badge": "https://img.shields.io/github/stars/allenai/discoveryworld?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/allenai/discoveryworld",
     "description": "Open-ended simulated world for scientific and interactive reasoning.",
     "tags": [
       "science",
@@ -878,7 +878,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Sotopia",
     "url": "https://github.com/sotopia-lab/sotopia",
-    "badge": "https://img.shields.io/github/stars/sotopia-lab/sotopia?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/sotopia-lab/sotopia",
     "description": "Open-ended social learning environment for language agents.",
     "tags": [
       "social",
@@ -890,7 +890,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Sotopia-pi",
     "url": "https://github.com/sotopia-lab/sotopia-pi",
-    "badge": "https://img.shields.io/github/stars/sotopia-lab/sotopia-pi?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/sotopia-lab/sotopia-pi",
     "description": "Preference and interaction stack extending Sotopia-style social evaluation.",
     "tags": [
       "social",
@@ -902,7 +902,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "ChatArena",
     "url": "https://github.com/Farama-Foundation/chatarena",
-    "badge": "https://img.shields.io/github/stars/Farama-Foundation/chatarena?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/Farama-Foundation/chatarena",
     "description": "Multi-agent language game environments for collaboration and competition.",
     "tags": [
       "social",
@@ -914,7 +914,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AdaSociety",
     "url": "https://github.com/bigai-ai/AdaSociety",
-    "badge": "https://img.shields.io/github/stars/bigai-ai/AdaSociety?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/bigai-ai/AdaSociety",
     "description": "Multi-agent environment with expanding state/action spaces and explicit social structure.",
     "tags": [
       "social",
@@ -939,7 +939,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "EnvScaler",
     "url": "https://github.com/RUC-NLPIR/EnvScaler",
-    "badge": "https://img.shields.io/github/stars/RUC-NLPIR/EnvScaler?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/RUC-NLPIR/EnvScaler",
     "description": "Programmatic synthesis of tool-interactive environments and verifiable scenarios.",
     "tags": [
       "tool-use",
@@ -965,7 +965,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Agent World Model",
     "url": "https://github.com/Snowflake-Labs/agent-world-model",
-    "badge": "https://img.shields.io/github/stars/Snowflake-Labs/agent-world-model?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/Snowflake-Labs/agent-world-model",
     "description": "Fully synthetic code-driven environments backed by databases and tool APIs.",
     "tags": [
       "tool-use",
@@ -1004,7 +1004,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "RLVE",
     "url": "https://github.com/Zhiyuan-Zeng/RLVE",
-    "badge": "https://img.shields.io/github/stars/Zhiyuan-Zeng/RLVE?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/Zhiyuan-Zeng/RLVE",
     "description": "Adaptive verifiable environments for reinforcement learning over language models.",
     "tags": [
       "synthetic",
@@ -1095,7 +1095,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "OCI Runtime Spec",
     "url": "https://github.com/opencontainers/runtime-spec",
-    "badge": "https://img.shields.io/github/stars/opencontainers/runtime-spec?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/opencontainers/runtime-spec",
     "description": "Standard for how container runtimes launch and manage container bundles.",
     "tags": [
       "runtime",
@@ -1107,7 +1107,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "OCI Image Spec",
     "url": "https://github.com/opencontainers/image-spec",
-    "badge": "https://img.shields.io/github/stars/opencontainers/image-spec?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/opencontainers/image-spec",
     "description": "Standard image format used across container-based agent environments.",
     "tags": [
       "runtime",
@@ -1119,7 +1119,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "runc",
     "url": "https://github.com/opencontainers/runc",
-    "badge": "https://img.shields.io/github/stars/opencontainers/runc?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/opencontainers/runc",
     "description": "Reference OCI runtime used under much of the modern container stack.",
     "tags": [
       "runtime"
@@ -1130,7 +1130,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "containerd",
     "url": "https://github.com/containerd/containerd",
-    "badge": "https://img.shields.io/github/stars/containerd/containerd?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/containerd/containerd",
     "description": "Core container runtime layer used by many sandboxed and orchestrated agent systems.",
     "tags": [
       "runtime",
@@ -1154,7 +1154,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Firecracker",
     "url": "https://github.com/firecracker-microvm/firecracker",
-    "badge": "https://img.shields.io/github/stars/firecracker-microvm/firecracker?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/firecracker-microvm/firecracker",
     "description": "MicroVM runtime for stronger isolation than process-level containers.",
     "tags": [
       "sandbox",
@@ -1167,7 +1167,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "firecracker-containerd",
     "url": "https://github.com/firecracker-microvm/firecracker-containerd",
-    "badge": "https://img.shields.io/github/stars/firecracker-microvm/firecracker-containerd?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/firecracker-microvm/firecracker-containerd",
     "description": "Containerd integration for launching container workloads inside Firecracker microVMs.",
     "tags": [
       "sandbox",
@@ -1179,7 +1179,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "gVisor",
     "url": "https://github.com/google/gvisor",
-    "badge": "https://img.shields.io/github/stars/google/gvisor?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/google/gvisor",
     "description": "User-space kernel that hardens container isolation for untrusted workloads.",
     "tags": [
       "sandbox",
@@ -1191,7 +1191,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Kata Containers",
     "url": "https://github.com/kata-containers/kata-containers",
-    "badge": "https://img.shields.io/github/stars/kata-containers/kata-containers?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/kata-containers/kata-containers",
     "description": "Lightweight VMs that look like containers to orchestration systems.",
     "tags": [
       "sandbox",
@@ -1203,7 +1203,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Confidential Containers",
     "url": "https://github.com/confidential-containers",
-    "badge": "https://img.shields.io/github/stars/confidential-containers/trustee?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/confidential-containers/trustee",
     "description": "Confidential-computing stack for running container workloads inside attested trusted environments.",
     "tags": [
       "sandbox",
@@ -1215,7 +1215,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "E2B",
     "url": "https://github.com/e2b-dev/E2B",
-    "badge": "https://img.shields.io/github/stars/e2b-dev/E2B?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/e2b-dev/E2B",
     "description": "Managed cloud sandboxes for code-interpreter and agent workloads.",
     "tags": [
       "sandbox",
@@ -1227,7 +1227,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "E2B Desktop Sandbox",
     "url": "https://github.com/e2b-dev/desktop",
-    "badge": "https://img.shields.io/github/stars/e2b-dev/desktop?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/e2b-dev/desktop",
     "description": "Browser and desktop sandbox for computer-use style agents.",
     "tags": [
       "sandbox",
@@ -1263,7 +1263,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Kubernetes",
     "url": "https://github.com/kubernetes/kubernetes",
-    "badge": "https://img.shields.io/github/stars/kubernetes/kubernetes?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/kubernetes/kubernetes",
     "description": "The default cluster orchestrator for multi-tenant agent runtimes and sandbox scheduling.",
     "tags": [
       "platform",
@@ -1275,7 +1275,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Knative",
     "url": "https://github.com/knative/serving",
-    "badge": "https://img.shields.io/github/stars/knative/serving?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/knative/serving",
     "description": "Serverless layer on Kubernetes for request-driven workloads and elastic agent backends.",
     "tags": [
       "platform",
@@ -1336,7 +1336,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "Wasmtime",
     "url": "https://github.com/bytecodealliance/wasmtime",
-    "badge": "https://img.shields.io/github/stars/bytecodealliance/wasmtime?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/bytecodealliance/wasmtime",
     "description": "WebAssembly runtime that enables portable capability-bounded execution.",
     "tags": [
       "protocol",
@@ -1348,7 +1348,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "WASI",
     "url": "https://github.com/WebAssembly/WASI",
-    "badge": "https://img.shields.io/github/stars/WebAssembly/WASI?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/WebAssembly/WASI",
     "description": "Capability-oriented system interface for WebAssembly modules.",
     "tags": [
       "protocol",
@@ -1384,7 +1384,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "OpenTelemetry",
     "url": "https://github.com/open-telemetry/opentelemetry-specification",
-    "badge": "https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification",
     "description": "Unified traces, metrics, and logs specification for distributed agent platforms.",
     "tags": [
       "observability",
@@ -1431,7 +1431,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "S2E",
     "url": "https://github.com/S2E/s2e",
-    "badge": "https://img.shields.io/github/stars/S2E/s2e?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/S2E/s2e",
     "description": "Selective symbolic execution platform for deep system analysis and adversarial environment testing.",
     "tags": [
       "observability",
@@ -1455,7 +1455,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "BrowserGym",
     "url": "https://github.com/ServiceNow/BrowserGym",
-    "badge": "https://img.shields.io/github/stars/ServiceNow/BrowserGym?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/ServiceNow/BrowserGym",
     "description": "Unified Gym-style interface spanning multiple browser and enterprise environments.",
     "tags": [
       "harness",
@@ -1468,7 +1468,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AgentLab",
     "url": "https://github.com/ServiceNow/AgentLab",
-    "badge": "https://img.shields.io/github/stars/ServiceNow/AgentLab?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/ServiceNow/AgentLab",
     "description": "Experiment and evaluation layer built around BrowserGym environments.",
     "tags": [
       "harness",
@@ -1481,7 +1481,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "OpenHands Benchmarks",
     "url": "https://github.com/OpenHands/benchmarks",
-    "badge": "https://img.shields.io/github/stars/OpenHands/benchmarks?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/OpenHands/benchmarks",
     "description": "Benchmark collections and execution harnesses for coding and agent tasks.",
     "tags": [
       "harness",
@@ -1494,7 +1494,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AgentRewardBench",
     "url": "https://github.com/McGill-NLP/agent-reward-bench",
-    "badge": "https://img.shields.io/github/stars/McGill-NLP/agent-reward-bench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/McGill-NLP/agent-reward-bench",
     "description": "Reward-model benchmark tailored to agent trajectories and task outcomes.",
     "tags": [
       "harness",
@@ -1506,7 +1506,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "tale-suite",
     "url": "https://github.com/microsoft/tale-suite",
-    "badge": "https://img.shields.io/github/stars/microsoft/tale-suite?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/microsoft/tale-suite",
     "description": "Task and agent lifecycle evaluation suite for agentic systems.",
     "tags": [
       "harness",
@@ -1518,7 +1518,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "METR Task Standard",
     "url": "https://github.com/METR/task-standard",
-    "badge": "https://img.shields.io/github/stars/METR/task-standard?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/METR/task-standard",
     "description": "Task specification standard aimed at more reproducible agent evaluation.",
     "tags": [
       "harness",
@@ -1530,7 +1530,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "PettingZoo",
     "url": "https://github.com/Farama-Foundation/PettingZoo",
-    "badge": "https://img.shields.io/github/stars/Farama-Foundation/PettingZoo?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/Farama-Foundation/PettingZoo",
     "description": "Standard API and reference environments for multi-agent RL research.",
     "tags": [
       "harness",
@@ -1542,7 +1542,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "GroundCUA",
     "url": "https://github.com/ServiceNow/GroundCUA",
-    "badge": "https://img.shields.io/github/stars/ServiceNow/GroundCUA?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/ServiceNow/GroundCUA",
     "description": "Grounding and dataset layer for computer-use agents, complementary to GUI environments.",
     "tags": [
       "harness",
@@ -1554,7 +1554,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "AgentDojo",
     "url": "https://github.com/ethz-spylab/agentdojo",
-    "badge": "https://img.shields.io/github/stars/ethz-spylab/agentdojo?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/ethz-spylab/agentdojo",
     "description": "Security benchmark for tool-using agents under adversarial and policy-constrained settings.",
     "tags": [
       "security",
@@ -1567,7 +1567,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "DoomArena",
     "url": "https://github.com/ServiceNow/DoomArena",
-    "badge": "https://img.shields.io/github/stars/ServiceNow/DoomArena?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/ServiceNow/DoomArena",
     "description": "Stress-testing environment for robust and adversarial browser-agent behavior.",
     "tags": [
       "security",
@@ -1580,7 +1580,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "ASB",
     "url": "https://github.com/agiresearch/ASB",
-    "badge": "https://img.shields.io/github/stars/agiresearch/ASB?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/agiresearch/ASB",
     "description": "Agent security benchmark suite for evaluating attack surfaces and unsafe behavior.",
     "tags": [
       "security",
@@ -1592,7 +1592,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "DefenderBench",
     "url": "https://github.com/microsoft/DefenderBench",
-    "badge": "https://img.shields.io/github/stars/microsoft/DefenderBench?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/microsoft/DefenderBench",
     "description": "Defensive evaluation benchmark for agent systems operating under security constraints.",
     "tags": [
       "security",
@@ -1604,7 +1604,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "ToolEmu",
     "url": "https://github.com/ryoungj/ToolEmu",
-    "badge": "https://img.shields.io/github/stars/ryoungj/ToolEmu?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/ryoungj/ToolEmu",
     "description": "Sandbox for emulating risky tool-use scenarios and evaluating tool-agent safety.",
     "tags": [
       "security",
@@ -1617,7 +1617,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "OS-Harm",
     "url": "https://github.com/tml-epfl/os-harm",
-    "badge": "https://img.shields.io/github/stars/tml-epfl/os-harm?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/tml-epfl/os-harm",
     "description": "Harm benchmark for computer-use agents operating over OS-like environments.",
     "tags": [
       "security",
@@ -1648,7 +1648,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "A Compendium of LLM Benchmarks for Agents",
     "url": "https://github.com/philschmid/ai-agent-benchmark-compendium",
-    "badge": "https://img.shields.io/github/stars/philschmid/ai-agent-benchmark-compendium?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/philschmid/ai-agent-benchmark-compendium",
     "description": "Broad benchmark map with many adjacent agent-evaluation resources.",
     "tags": [],
     "section": "Surveys and Reading Lists",
@@ -1657,7 +1657,7 @@ window.AGENT_ENV_ENTRIES = [
   {
     "name": "GUI Agents Paper List",
     "url": "https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List",
-    "badge": "https://img.shields.io/github/stars/OSU-NLP-Group/GUI-Agents-Paper-List?style=flat-square",
+    "badge": "https://img.shields.io/github/stars/OSU-NLP-Group/GUI-Agents-Paper-List",
     "description": "Curated reading list for GUI-agent research.",
     "tags": [],
     "section": "Surveys and Reading Lists",
@@ -1665,8 +1665,8 @@ window.AGENT_ENV_ENTRIES = [
   },
   {
     "name": "AgentSafety Paper List",
-    "url": "https://github.com/OSU-NLP-Group/AgentSafety_Papers",
-    "badge": "https://img.shields.io/github/stars/OSU-NLP-Group/AgentSafety_Papers?style=flat-square",
+    "url": "https://github.com/OSU-NLP-Group/AgentSafety",
+    "badge": "https://img.shields.io/github/stars/OSU-NLP-Group/AgentSafety",
     "description": "Reading list focused on agent safety and security.",
     "tags": [],
     "section": "Surveys and Reading Lists",
