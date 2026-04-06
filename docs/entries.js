@@ -1628,15 +1628,6 @@ window.AGENT_ENV_ENTRIES = [
     "section_anchor": "safety-security-and-robustness"
   },
   {
-    "name": "Taxonomy Notes",
-    "url": "docs/taxonomy.md",
-    "badge": null,
-    "description": "Chinese notes on definitions, classification axes, development patterns, and construction methods.",
-    "tags": [],
-    "section": "Surveys and Reading Lists",
-    "section_anchor": "surveys-and-reading-lists"
-  },
-  {
     "name": "Environment Scaling for Interactive Agentic Experience Collection: A Survey",
     "url": "https://arxiv.org/abs/2511.09586",
     "badge": null,

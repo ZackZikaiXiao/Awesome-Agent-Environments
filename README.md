@@ -2,8 +2,6 @@
 
 <div align="center">
   <p align="center">
-    <a href="docs/explore.html">🧭 Explorer</a> |
-    <a href="docs/taxonomy.md">📝 Taxonomy Notes</a> |
     <a href="https://github.com/ZackZikaiXiao/Awesome-Agent-Environments">🌐 GitHub</a>
   </p>
 </div>
@@ -21,8 +19,6 @@ This repository collects environments, benchmarks, simulators, sandboxes, and co
 It is intentionally broader than a benchmark-only list: besides the worlds agents act in, it also tracks the systems used to synthesize, host, verify, benchmark, and secure those worlds.
 
 ⭐ Live GitHub star badges are shown when a public repository exists, so the displayed counts stay current without hard-coding numbers.
-
-🧭 For interactive filtering, open [Explorer](docs/explore.html). It supports interactive filtering, optional click/impression analytics, and per-project CTR tracking.
 
 ## Contents
 
@@ -68,8 +64,6 @@ Excluded by default:
 - Pure agent frameworks with no reusable environment or benchmark
 - Pure model papers with no environment contribution
 - Generic tooling unless it is directly used to build, host, or evaluate agent environments
-
-For a longer Chinese write-up on definitions, classification axes, development patterns, and construction methods, see [docs/taxonomy.md](docs/taxonomy.md).
 
 ## Environment Collections
 
@@ -250,7 +244,6 @@ For a longer Chinese write-up on definitions, classification axes, development p
 
 ### Surveys and Reading Lists
 
-- [Taxonomy Notes](docs/taxonomy.md) - Chinese notes on definitions, classification axes, development patterns, and construction methods.
 - [Environment Scaling for Interactive Agentic Experience Collection: A Survey](https://arxiv.org/abs/2511.09586) - Survey centered on environment scaling as a training axis.
 - [A Compendium of LLM Benchmarks for Agents](https://github.com/philschmid/ai-agent-benchmark-compendium) [![GitHub Repo stars](https://img.shields.io/github/stars/philschmid/ai-agent-benchmark-compendium)](https://github.com/philschmid/ai-agent-benchmark-compendium) - Broad benchmark map with many adjacent agent-evaluation resources.
 - [GUI Agents Paper List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) [![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/GUI-Agents-Paper-List)](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) - Curated reading list for GUI-agent research.
