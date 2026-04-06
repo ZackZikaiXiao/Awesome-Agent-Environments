@@ -1626,41 +1626,5 @@ window.AGENT_ENV_ENTRIES = [
     ],
     "section": "Safety, Security, and Robustness",
     "section_anchor": "safety-security-and-robustness"
-  },
-  {
-    "name": "Environment Scaling for Interactive Agentic Experience Collection: A Survey",
-    "url": "https://arxiv.org/abs/2511.09586",
-    "badge": null,
-    "description": "Survey centered on environment scaling as a training axis.",
-    "tags": [],
-    "section": "Surveys and Reading Lists",
-    "section_anchor": "surveys-and-reading-lists"
-  },
-  {
-    "name": "A Compendium of LLM Benchmarks for Agents",
-    "url": "https://github.com/philschmid/ai-agent-benchmark-compendium",
-    "badge": "https://img.shields.io/github/stars/philschmid/ai-agent-benchmark-compendium",
-    "description": "Broad benchmark map with many adjacent agent-evaluation resources.",
-    "tags": [],
-    "section": "Surveys and Reading Lists",
-    "section_anchor": "surveys-and-reading-lists"
-  },
-  {
-    "name": "GUI Agents Paper List",
-    "url": "https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List",
-    "badge": "https://img.shields.io/github/stars/OSU-NLP-Group/GUI-Agents-Paper-List",
-    "description": "Curated reading list for GUI-agent research.",
-    "tags": [],
-    "section": "Surveys and Reading Lists",
-    "section_anchor": "surveys-and-reading-lists"
-  },
-  {
-    "name": "AgentSafety Paper List",
-    "url": "https://github.com/OSU-NLP-Group/AgentSafety",
-    "badge": "https://img.shields.io/github/stars/OSU-NLP-Group/AgentSafety",
-    "description": "Reading list focused on agent safety and security.",
-    "tags": [],
-    "section": "Surveys and Reading Lists",
-    "section_anchor": "surveys-and-reading-lists"
   }
 ];

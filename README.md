@@ -42,9 +42,6 @@ It is intentionally broader than a benchmark-only list: besides the worlds agent
     - [Observability and Debugging](#observability-and-debugging)
     - [Evaluation Harnesses and Companion Ecosystems](#evaluation-harnesses-and-companion-ecosystems)
     - [Safety, Security, and Robustness](#safety-security-and-robustness)
-  - [📚 Supporting Material](#supporting-material)
-    - [Surveys and Reading Lists](#surveys-and-reading-lists)
-    - [Contributing](#contributing)
 
 ## Overview
 
@@ -239,22 +236,3 @@ Excluded by default:
 - [DefenderBench](https://github.com/microsoft/DefenderBench) [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/DefenderBench)](https://github.com/microsoft/DefenderBench) - Defensive evaluation benchmark for agent systems operating under security constraints.
 - [ToolEmu](https://github.com/ryoungj/ToolEmu) [![GitHub Repo stars](https://img.shields.io/github/stars/ryoungj/ToolEmu)](https://github.com/ryoungj/ToolEmu) - Sandbox for emulating risky tool-use scenarios and evaluating tool-agent safety.
 - [OS-Harm](https://github.com/tml-epfl/os-harm) [![GitHub Repo stars](https://img.shields.io/github/stars/tml-epfl/os-harm)](https://github.com/tml-epfl/os-harm) - Harm benchmark for computer-use agents operating over OS-like environments.
-
-## Supporting Material
-
-### Surveys and Reading Lists
-
-- [Environment Scaling for Interactive Agentic Experience Collection: A Survey](https://arxiv.org/abs/2511.09586) - Survey centered on environment scaling as a training axis.
-- [A Compendium of LLM Benchmarks for Agents](https://github.com/philschmid/ai-agent-benchmark-compendium) [![GitHub Repo stars](https://img.shields.io/github/stars/philschmid/ai-agent-benchmark-compendium)](https://github.com/philschmid/ai-agent-benchmark-compendium) - Broad benchmark map with many adjacent agent-evaluation resources.
-- [GUI Agents Paper List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) [![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/GUI-Agents-Paper-List)](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) - Curated reading list for GUI-agent research.
-- [AgentSafety Paper List](https://github.com/OSU-NLP-Group/AgentSafety) [![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/AgentSafety)](https://github.com/OSU-NLP-Group/AgentSafety) - Reading list focused on agent safety and security.
-
-### Contributing
-
-Contributions are welcome. A good contribution usually includes:
-
-- the official repository, project page, or paper link
-- a one-line description of what the environment contributes
-- a rationale for why the project belongs here as an environment, environment builder, sandbox, or harness
-
-If a project fits multiple sections, prefer one primary section instead of duplicating it everywhere.
