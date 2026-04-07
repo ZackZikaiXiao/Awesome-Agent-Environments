@@ -60,6 +60,7 @@ This list is organized around three questions:
 
 ### Web Environments
 
+- Paper: [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://arxiv.org/abs/2603.22529). ArXiv 2026. Web-agent benchmark that links egocentric video perception with live web execution and automatic evaluation.
 - Paper: [Online-Mind2Web](https://arxiv.org/abs/2504.01382). ArXiv 2025. Online extension of Mind2Web for live and dynamic web interaction.
 - Project: [FieldWorkArena](https://github.com/FujitsuResearch/FieldWorkArena). 2025. Benchmark for field-service style workflows conducted through enterprise web interfaces. [![GitHub Repo stars](https://img.shields.io/github/stars/FujitsuResearch/FieldWorkArena)](https://github.com/FujitsuResearch/FieldWorkArena)
 - Paper: [WebChoreArena](https://arxiv.org/abs/2509.13177). ArXiv 2025. Cross-page and multi-step web chores benchmark designed to break shortcut-heavy web agents.
@@ -107,6 +108,7 @@ This list is organized around three questions:
 
 ### Tool and API Environments
 
+- Paper: [MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers](https://arxiv.org/abs/2602.00933). ArXiv 2026. Large-scale benchmark for real MCP-based tool use across 36 servers and 220 tools.
 - Project: [tau2-bench](https://github.com/sierra-research/tau2-bench). 2025. Harder successor benchmark with dual-control and richer environment dynamics. [![GitHub Repo stars](https://img.shields.io/github/stars/sierra-research/tau2-bench)](https://github.com/sierra-research/tau2-bench)
 - Project: [Tau^3-bench](https://github.com/sierra-research/tau2-bench). 2025. Harder successor to tau2-bench adding full-duplex voice interaction, retrieval, and refined task design. [![GitHub Repo stars](https://img.shields.io/github/stars/sierra-research/tau2-bench)](https://github.com/sierra-research/tau2-bench)
 - Project: [AppWorld](https://github.com/StonyBrookNLP/appworld). 2025. App-centric environment for multi-tool and multi-app task completion. [![GitHub Repo stars](https://img.shields.io/github/stars/StonyBrookNLP/appworld)](https://github.com/StonyBrookNLP/appworld)
@@ -133,6 +135,7 @@ This list is organized around three questions:
 - Paper: [GUI-GENESIS](https://arxiv.org/abs/2602.14093). ArXiv 2026. Automated synthesis of efficient GUI environments with verifiable rewards.
 - Project: [WebArena-Infinity](https://github.com/web-arena-x/webarena-infinity). 2026. Generates browser environments with verifiable tasks at scale using multi-agent automation. [![GitHub Repo stars](https://img.shields.io/github/stars/web-arena-x/webarena-infinity)](https://github.com/web-arena-x/webarena-infinity)
 - Paper: [LLM-in-Sandbox](https://arxiv.org/abs/2601.16206). ArXiv 2026. Sandbox-first environment design showing broad gains from letting models explore a virtual computer.
+- Paper: [Safe and Scalable Web Agent Learning via Recreated Websites](https://arxiv.org/abs/2603.10505). ArXiv 2026. VeriEnv recreates real websites into executable, verifiable training environments for safe web-agent learning.
 - Paper: [Simulating Environments with Reasoning Models for Agent Training](https://arxiv.org/abs/2511.01824). ArXiv 2025. Uses reasoning models to simulate environment feedback for scalable SFT and RL agent training without hand-written environment code.
 - Project: [SWE-Factory](https://github.com/DeepSoftwareAnalytics/swe-factory). 2025. Automated factory for issue-resolution training data and benchmark generation. [![GitHub Repo stars](https://img.shields.io/github/stars/DeepSoftwareAnalytics/swe-factory)](https://github.com/DeepSoftwareAnalytics/swe-factory)
 - Project: [Toucan](https://github.com/TheAgentArk/Toucan). 2025. Environment and data generation pipeline around real MCP-style tool ecosystems. [![GitHub Repo stars](https://img.shields.io/github/stars/TheAgentArk/Toucan)](https://github.com/TheAgentArk/Toucan)
@@ -145,6 +148,9 @@ This list is organized around three questions:
 - Paper: [WebWorld](https://arxiv.org/abs/2602.14721). ArXiv 2026. Large-scale world model for open-web agent training.
 - Paper: [Reinforcement World Model Learning for LLM-based Agents](https://arxiv.org/abs/2602.05842). ArXiv 2026. Self-supervised world-model learning method that aligns simulated next states with real environment transitions.
 - Paper: [VirtualEnv](https://arxiv.org/abs/2601.07553). ArXiv 2026. Open-source simulated platform with procedurally generated tasks and game-inspired mechanics.
+- Paper: [ViMo: A Generative Visual GUI World Model for App Agent](https://arxiv.org/abs/2504.13936). ArXiv 2025. Visual GUI world model for app agents that generates future GUI observations as images and text. [![GitHub Repo stars](https://img.shields.io/github/stars/ai-agents-2030/ViMo)](https://github.com/ai-agents-2030/ViMo)
+- Paper: [LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training](https://arxiv.org/abs/2510.14969). ArXiv 2025. Uses LLM-based simulators as scalable digital training worlds for evolving agent capabilities across changing environments.
+- Paper: [Internalizing World Models via Self-Play Finetuning for Agentic RL](https://arxiv.org/abs/2510.15047). ArXiv 2025. Improves agentic RL by internalizing latent world models through self-play fine-tuning.
 - Paper: [Dreamer 4](https://arxiv.org/abs/2509.24527). ArXiv 2025. Scalable world-model training in imagination, including complex Minecraft-style tasks.
 - Paper: [Dyna-Mind: Learning to Simulate from Experience for Better AI Agents](https://arxiv.org/abs/2510.09577). ArXiv 2025. Teaches agents to internalize simulation traces from experience and improve long-horizon decision making.
 - Paper: [WebDreamer](https://arxiv.org/abs/2411.06559). ArXiv 2024. Web world-model direction for simulated web interaction and planning.
@@ -154,6 +160,7 @@ This list is organized around three questions:
 - Project: [EnvScaler](https://github.com/RUC-NLPIR/EnvScaler). 2026. Programmatic scaling of tool-interactive environments and verifiable scenarios. [![GitHub Repo stars](https://img.shields.io/github/stars/RUC-NLPIR/EnvScaler)](https://github.com/RUC-NLPIR/EnvScaler)
 - Paper: [ScaleEnv](https://arxiv.org/abs/2602.06820). ArXiv 2026. From-scratch scaling of generalist tool-use environments with executable verification.
 - Paper: [Adaptive Environment Generation for Embodied Agents](https://arxiv.org/abs/2602.06366). ArXiv 2026. Adaptive scene generation driven by current agent competence.
+- Paper: [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](https://arxiv.org/abs/2512.19682). ArXiv 2025. Co-trains agents with a generative environment simulator that adaptively proposes tasks near the agent's current capability boundary. [![GitHub Repo stars](https://img.shields.io/github/stars/Gen-Verse/GenEnv)](https://github.com/Gen-Verse/GenEnv)
 - Paper: [Towards General Agentic Intelligence via Environment Scaling](https://arxiv.org/abs/2509.13311). ArXiv 2025. Studies how expanding environment diversity and agent experience can improve generalist tool-use agents.
 - Paper: [Scaling Agent Learning via Experience Synthesis](https://arxiv.org/abs/2511.03773). ArXiv 2025. Introduces DreamGym, a framework that synthesizes scalable agent experiences for online RL training.
 - Paper: [Agent Learning via Early Experience](https://arxiv.org/abs/2510.08558). ArXiv 2025. Learns from future states generated by the agent's own actions, bridging imitation learning and full RL.
@@ -163,6 +170,7 @@ This list is organized around three questions:
 
 ### Sandbox Platforms
 
+- Project: [ROCK](https://github.com/alibaba/ROCK). 2026. Environment and sandbox management framework with a client-server architecture, unified SDKs, and scalable runtime orchestration for agent training workloads. [![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/ROCK)](https://github.com/alibaba/ROCK)
 - Project: [OpenSandbox](https://github.com/alibaba/OpenSandbox). 2026. General-purpose sandbox platform for AI applications with unified sandbox APIs, Docker/Kubernetes runtimes, and built-in coding and GUI environments. [![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/OpenSandbox)](https://github.com/alibaba/OpenSandbox)
 - Project: [Kubernetes Agent Sandbox](https://developers.googleblog.com/en/announcing-kubernetes-agent-sandbox/). 2025. Google's direction for standardizing sandboxed agent runtimes on Kubernetes.
 - Paper: [Fault-Tolerant Sandboxing for LLM Agents](https://arxiv.org/abs/2512.12806). ArXiv 2025. Research on resilient sandbox execution for long-running agent systems.
