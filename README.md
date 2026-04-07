@@ -23,8 +23,8 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
   - [Tool and API](#tool-and-api)
   - [Enterprise and Workflow](#enterprise-and-workflow)
 - [Environment Generation and Scaling](#environment-generation-and-scaling)
-  - [Programmatic and Synthetic Generation](#programmatic-and-synthetic-generation)
-  - [World Models and Learned Simulators](#world-models-and-learned-simulators)
+  - [Programmatic Synthesis](#programmatic-synthesis)
+  - [Model-Based Simulation](#model-based-simulation)
   - [Environment Scaling Methods](#environment-scaling-methods)
 - [Sandboxes and Infrastructure](#sandboxes-and-infrastructure)
   - [Sandbox Platforms](#sandbox-platforms)
@@ -105,7 +105,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 
 ## Environment Generation and Scaling
 
-### Programmatic and Synthetic Generation
+### Programmatic Synthesis
 
 - [GUI-GENESIS](https://arxiv.org/abs/2602.14093). ArXiv 2026. Automated synthesis of efficient GUI environments with verifiable rewards.
 - [WebArena-Infinity](https://github.com/web-arena-x/webarena-infinity). 2026. Generates browser environments with verifiable tasks at scale using multi-agent automation. [![GitHub Repo stars](https://img.shields.io/github/stars/web-arena-x/webarena-infinity)](https://github.com/web-arena-x/webarena-infinity)
@@ -116,7 +116,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [Toucan](https://github.com/TheAgentArk/Toucan). 2025. Environment and data generation pipeline around real MCP-style tool ecosystems. [![GitHub Repo stars](https://img.shields.io/github/stars/TheAgentArk/Toucan)](https://github.com/TheAgentArk/Toucan)
 - [OS-Genesis](https://arxiv.org/abs/2412.19723). ArXiv 2024. Reverse task synthesis pipeline for generating GUI-agent trajectories.
 
-### World Models and Learned Simulators
+### Model-Based Simulation
 
 - [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856). ArXiv 2026. GUI world model that predicts next UI states through renderable code generation, with code available from AMAP-ML. [![GitHub Repo stars](https://img.shields.io/github/stars/AMAP-ML/Code2World)](https://github.com/AMAP-ML/Code2World)
 - [Agent World Model](https://github.com/Snowflake-Labs/agent-world-model). 2026. Fully synthetic code-driven environments backed by databases and tool APIs. [![GitHub Repo stars](https://img.shields.io/github/stars/Snowflake-Labs/agent-world-model)](https://github.com/Snowflake-Labs/agent-world-model)
