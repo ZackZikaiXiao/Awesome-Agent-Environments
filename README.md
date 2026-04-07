@@ -21,6 +21,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
   - [Computer Use](#computer-use)
   - [Coding and Terminal](#coding-and-terminal)
   - [Tool and API](#tool-and-api)
+  - [Personal Agents](#personal-agents)
   - [Enterprise and Workflow](#enterprise-and-workflow)
 - [Environment Generation and Scaling](#environment-generation-and-scaling)
   - [Programmatic Synthesis](#programmatic-synthesis)
@@ -95,6 +96,17 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo). 2024. Security benchmark for tool-using agents under adversarial and policy-constrained settings. [![GitHub Repo stars](https://img.shields.io/github/stars/ethz-spylab/agentdojo)](https://github.com/ethz-spylab/agentdojo)
 - [ASB](https://github.com/agiresearch/ASB). 2024. Agent security benchmark suite for evaluating attack surfaces and unsafe tool behavior. [![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/ASB)](https://github.com/agiresearch/ASB)
 - [ToolEmu](https://github.com/ryoungj/ToolEmu). 2023. Sandbox for emulating risky tool-use scenarios and evaluating tool-agent safety. [![GitHub Repo stars](https://img.shields.io/github/stars/ryoungj/ToolEmu)](https://github.com/ryoungj/ToolEmu)
+
+### Personal Agents
+
+- [Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants](https://arxiv.org/abs/2604.00842). ArXiv 2026. PARE and Pare-Bench model proactive assistants in digital environments spanning communication, productivity, scheduling, and lifestyle apps. [![GitHub Repo stars](https://img.shields.io/github/stars/deepakn97/pare)](https://github.com/deepakn97/pare)
+- [OpenClaw Arena](https://openclaw-arena.github.io/). 2026. Benchmark for personal AI agents that measures task competence and personality consistency across 100 real-world tasks.
+- [OpenClaw](https://github.com/openclaw/openclaw). 2026. Local-first personal AI agent and workflow system with multi-channel interfaces, tool use, and controlled execution boundaries. [![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/openclaw)](https://github.com/openclaw/openclaw)
+- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013). ArXiv 2026. Benchmark for proactive GUI assistants over long, noisy, multi-intent screen trajectories.
+- [ASTRA-bench: Evaluating Tool-Use Agent Reasoning and Action Planning with Personal User Context](https://arxiv.org/abs/2603.01357). ArXiv 2026. Execution-based benchmark for assistants that reason over time-evolving personal context and interactive tools.
+- [ProactiveMobile: A Comprehensive Benchmark for Boosting Proactive Intelligence on Mobile Devices](https://arxiv.org/abs/2602.21858). ArXiv 2026. Mobile benchmark for proactive assistants that infer user intent from on-device context and generate executable API sequences.
+- [ProAgentBench](https://arxiv.org/abs/2602.04482). ArXiv 2026. Benchmark for proactive assistants in working scenarios built from long-term real user sessions.
+- [ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions](https://arxiv.org/abs/2505.14668). ArXiv 2025. ContextAgentBench evaluates proactive assistants that combine sensory context, persona signals, and tool use.
 
 ### Enterprise and Workflow
 
