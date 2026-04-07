@@ -17,11 +17,11 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 ## Contents
 
 - [Agent Environments and Benchmarks](#agent-environments-and-benchmarks)
-  - [Web Environments](#web-environments)
-  - [Computer-Use Environments](#computer-use-environments)
-  - [Coding and Terminal Environments](#coding-and-terminal-environments)
-  - [Tool and API Environments](#tool-and-api-environments)
-  - [Enterprise and Workflow Environments](#enterprise-and-workflow-environments)
+  - [Web](#web)
+  - [Computer Use](#computer-use)
+  - [Coding and Terminal](#coding-and-terminal)
+  - [Tool and API](#tool-and-api)
+  - [Enterprise and Workflow](#enterprise-and-workflow)
 - [Environment Generation and Scaling](#environment-generation-and-scaling)
   - [Programmatic and Synthetic Generation](#programmatic-and-synthetic-generation)
   - [World Models and Learned Simulators](#world-models-and-learned-simulators)
@@ -33,7 +33,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 
 ## Agent Environments and Benchmarks
 
-### Web Environments
+### Web
 
 - [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://arxiv.org/abs/2603.22529). ArXiv 2026. Web-agent benchmark that links egocentric video perception with live web execution and automatic evaluation.
 - [Online-Mind2Web](https://arxiv.org/abs/2504.01382). ArXiv 2025. Online extension of Mind2Web for live and dynamic web interaction.
@@ -53,7 +53,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [WebShop](https://github.com/princeton-nlp/WebShop). 2022. Shopping environment for instruction following and decision making on realistic storefronts. [![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/WebShop)](https://github.com/princeton-nlp/WebShop)
 - [MiniWoB++](https://github.com/Farama-Foundation/miniwob-plusplus). 2018. Canonical lightweight browser tasks for web interaction agents. [![GitHub Repo stars](https://img.shields.io/github/stars/Farama-Foundation/miniwob-plusplus)](https://github.com/Farama-Foundation/miniwob-plusplus)
 
-### Computer-Use Environments
+### Computer Use
 
 - [OSExpert](https://arxiv.org/abs/2603.07978). ArXiv 2026. Harder desktop benchmark targeting professional software usage beyond commodity OS tasks.
 - [OSWorld](https://github.com/xlang-ai/OSWorld). 2025. Full operating-system benchmark with real desktop applications and scripted verification. [![GitHub Repo stars](https://img.shields.io/github/stars/xlang-ai/OSWorld)](https://github.com/xlang-ai/OSWorld)
@@ -64,7 +64,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [AndroidWorld](https://github.com/google-research/android_world). 2024. Android task suite for mobile agent evaluation and training. [![GitHub Repo stars](https://img.shields.io/github/stars/google-research/android_world)](https://github.com/google-research/android_world)
 - [CRAB](https://github.com/camel-ai/crab). 2024. Cross-environment benchmark covering computer-use and agent interaction tasks. [![GitHub Repo stars](https://img.shields.io/github/stars/camel-ai/crab)](https://github.com/camel-ai/crab)
 
-### Coding and Terminal Environments
+### Coding and Terminal
 
 - [SWE-World: Building Software Engineering Agents in Docker-Free Environments](https://arxiv.org/abs/2602.03419). ArXiv 2026. Docker-free learned surrogate environment for software engineering agents, with code available in RUCAIBox/SWE-World. [![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/SWE-World)](https://github.com/RUCAIBox/SWE-World)
 - [Hybrid-Gym](https://github.com/yiqingxyq/Hybrid-Gym). 2026. Coding-agent training environment aimed at cross-task generalization. [![GitHub Repo stars](https://img.shields.io/github/stars/yiqingxyq/Hybrid-Gym)](https://github.com/yiqingxyq/Hybrid-Gym)
@@ -81,7 +81,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [Debug-Gym](https://github.com/microsoft/debug-gym). 2024. Text-based interactive debugging environment with debugger-aware agent loops. [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/debug-gym)](https://github.com/microsoft/debug-gym)
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench). 2023. Standard issue-resolution benchmark built from real GitHub repositories and tests. [![GitHub Repo stars](https://img.shields.io/github/stars/SWE-bench/SWE-bench)](https://github.com/SWE-bench/SWE-bench)
 
-### Tool and API Environments
+### Tool and API
 
 - [MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers](https://arxiv.org/abs/2602.00933). ArXiv 2026. Large-scale benchmark for real MCP-based tool use across 36 servers and 220 tools.
 - [tau2-bench](https://github.com/sierra-research/tau2-bench). 2025. Harder successor benchmark with dual-control and richer environment dynamics. [![GitHub Repo stars](https://img.shields.io/github/stars/sierra-research/tau2-bench)](https://github.com/sierra-research/tau2-bench)
@@ -96,7 +96,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [ASB](https://github.com/agiresearch/ASB). 2024. Agent security benchmark suite for evaluating attack surfaces and unsafe tool behavior. [![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/ASB)](https://github.com/agiresearch/ASB)
 - [ToolEmu](https://github.com/ryoungj/ToolEmu). 2023. Sandbox for emulating risky tool-use scenarios and evaluating tool-agent safety. [![GitHub Repo stars](https://img.shields.io/github/stars/ryoungj/ToolEmu)](https://github.com/ryoungj/ToolEmu)
 
-### Enterprise and Workflow Environments
+### Enterprise and Workflow
 
 - [ScienceBoard](https://github.com/OS-Copilot/ScienceBoard). 2026. Scientific workflow environment for research-task agents. [![GitHub Repo stars](https://img.shields.io/github/stars/OS-Copilot/ScienceBoard)](https://github.com/OS-Copilot/ScienceBoard)
 - [DefenderBench](https://github.com/microsoft/DefenderBench). 2025. Defensive benchmark for agents operating inside security-sensitive workflow settings. [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/DefenderBench)](https://github.com/microsoft/DefenderBench)
