@@ -181,6 +181,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 
 ### Deployment and Orchestration
 
+- [OSGym: Scalable OS Infrastructure for Computer Use Agents](https://arxiv.org/abs/2511.11672). ArXiv 2025. Large-scale OS training infrastructure for computer-use agents with 1024 parallel sandboxes, aggressive disk deduplication, and RAM-bound orchestration.
 - [Knative](https://github.com/knative/serving). 2018. Serverless layer on Kubernetes for elastic agent backends. [![GitHub Repo stars](https://img.shields.io/github/stars/knative/serving)](https://github.com/knative/serving)
 - [Cloudflare Workers](https://developers.cloudflare.com/workers/reference/how-workers-works/). 2018. Isolate-based edge execution model relevant to ultra-fast agent serving and sandboxing.
 - [Kubernetes](https://github.com/kubernetes/kubernetes). 2014. Cluster orchestrator for multi-tenant agent runtimes and sandbox scheduling. [![GitHub Repo stars](https://img.shields.io/github/stars/kubernetes/kubernetes)](https://github.com/kubernetes/kubernetes)
