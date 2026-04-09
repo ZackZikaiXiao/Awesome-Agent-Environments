@@ -145,7 +145,6 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [ViMo: A Generative Visual GUI World Model for App Agent](https://arxiv.org/abs/2504.13936). ArXiv 2025. Visual GUI world model for app agents that generates future GUI observations as images and text. [![GitHub Repo stars](https://img.shields.io/github/stars/ai-agents-2030/ViMo)](https://github.com/ai-agents-2030/ViMo)
 - [LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training](https://arxiv.org/abs/2510.14969). ArXiv 2025. Uses LLM-based simulators as scalable digital training worlds for evolving agent capabilities across changing environments.
 - [Internalizing World Models via Self-Play Finetuning for Agentic RL](https://arxiv.org/abs/2510.15047). ArXiv 2025. Improves agentic RL by internalizing latent world models through self-play fine-tuning.
-- [Dreamer 4](https://arxiv.org/abs/2509.24527). ArXiv 2025. Scalable world-model training in imagination, including complex Minecraft-style tasks.
 - [Dyna-Mind: Learning to Simulate from Experience for Better AI Agents](https://arxiv.org/abs/2510.09577). ArXiv 2025. Teaches agents to internalize simulation traces from experience and improve long-horizon decision making.
 - [WebDreamer](https://arxiv.org/abs/2411.06559). ArXiv 2024. Web world-model direction for simulated web interaction and planning.
 
