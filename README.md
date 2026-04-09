@@ -18,6 +18,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 
 - [Agent Environments and Benchmarks](#agent-environments-and-benchmarks)
   - [Web](#web)
+  - [Vision](#vision)
   - [Computer Use](#computer-use)
   - [Coding and Terminal](#coding-and-terminal)
   - [Tool and API](#tool-and-api)
@@ -53,6 +54,10 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [WebArena](https://github.com/web-arena-x/webarena). 2023. Self-hostable benchmark built from cloned web services. [![GitHub Repo stars](https://img.shields.io/github/stars/web-arena-x/webarena)](https://github.com/web-arena-x/webarena)
 - [WebShop](https://github.com/princeton-nlp/WebShop). 2022. Shopping environment for instruction following and decision making on realistic storefronts. [![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/WebShop)](https://github.com/princeton-nlp/WebShop)
 - [MiniWoB++](https://github.com/Farama-Foundation/miniwob-plusplus). 2018. Canonical lightweight browser tasks for web interaction agents. [![GitHub Repo stars](https://img.shields.io/github/stars/Farama-Foundation/miniwob-plusplus)](https://github.com/Farama-Foundation/miniwob-plusplus)
+
+### Vision
+
+- [Gym-V: A Unified Vision Environment System for Agentic Vision Research](https://arxiv.org/abs/2603.15432). ArXiv 2026. Unified platform of 179 procedurally generated visual environments across 10 domains with controllable difficulty for agentic vision training and evaluation.
 
 ### Computer Use
 
