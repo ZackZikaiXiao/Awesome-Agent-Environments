@@ -166,6 +166,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 
 ### Sandbox Platforms
 
+- [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview). 2026. Anthropic's managed agent runtime with configurable cloud environments, hosted execution, built-in tools, and persistent sessions. Docs: [Environment setup](https://platform.claude.com/docs/en/managed-agents/environments), [Container reference](https://platform.claude.com/docs/en/managed-agents/cloud-containers), [Start a session](https://platform.claude.com/docs/en/managed-agents/sessions).
 - [ROCK](https://github.com/alibaba/ROCK). 2026. Environment and sandbox management framework with a client-server architecture, unified SDKs, and scalable runtime orchestration for agent training workloads. [![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/ROCK)](https://github.com/alibaba/ROCK)
 - [OpenSandbox](https://github.com/alibaba/OpenSandbox). 2026. General-purpose sandbox platform for AI applications with unified sandbox APIs, Docker/Kubernetes runtimes, and built-in coding and GUI environments. [![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/OpenSandbox)](https://github.com/alibaba/OpenSandbox)
 - [AIO Sandbox](https://github.com/agent-infra/sandbox). 2025. All-in-one sandbox combining browser, shell, file, MCP, and VSCode Server in a single Docker container with MCP-compatible APIs. [![GitHub Repo stars](https://img.shields.io/github/stars/agent-infra/sandbox)](https://github.com/agent-infra/sandbox)
