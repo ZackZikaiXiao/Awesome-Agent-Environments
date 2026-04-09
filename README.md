@@ -114,6 +114,8 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 - [ProactiveMobile: A Comprehensive Benchmark for Boosting Proactive Intelligence on Mobile Devices](https://arxiv.org/abs/2602.21858). ArXiv 2026. Mobile benchmark for proactive assistants that infer user intent from on-device context and generate executable API sequences.
 - [ProAgentBench](https://arxiv.org/abs/2602.04482). ArXiv 2026. Benchmark for proactive assistants in working scenarios built from long-term real user sessions.
 - [ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions](https://arxiv.org/abs/2505.14668). ArXiv 2025. ContextAgentBench evaluates proactive assistants that combine sensory context, persona signals, and tool use.
+- [PersonaMem](https://arxiv.org/abs/2504.14225). COLM 2025. Dynamic user profiling benchmark for evaluating how LLMs internalize user traits and track evolving preferences across multiple sessions (~1M tokens). [![GitHub Repo stars](https://img.shields.io/github/stars/bowen-upenn/PersonaMem)](https://github.com/bowen-upenn/PersonaMem)
+- [PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory](https://arxiv.org/abs/2512.06688). ArXiv 2025. Advanced personalization benchmark and training framework for learning implicit user personas and agentic memory via reinforcement fine-tuning. [![GitHub Repo stars](https://img.shields.io/github/stars/bowen-upenn/PersonaMem-v2)](https://github.com/bowen-upenn/PersonaMem-v2)
 
 ### Enterprise and Workflow
 
