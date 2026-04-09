@@ -158,6 +158,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 
 ### Environment Scaling Methods
 
+- [Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data](https://arxiv.org/abs/2602.21320). ArXiv 2026. Self-play framework that co-evolves a task generator and solver to bootstrap tool-use training without external task data.
 - [EnvScaler](https://github.com/RUC-NLPIR/EnvScaler). 2026. Programmatic scaling of tool-interactive environments and verifiable scenarios. [![GitHub Repo stars](https://img.shields.io/github/stars/RUC-NLPIR/EnvScaler)](https://github.com/RUC-NLPIR/EnvScaler)
 - [ScaleEnv](https://arxiv.org/abs/2602.06820). ArXiv 2026. From-scratch scaling of generalist tool-use environments with executable verification.
 - [Adaptive Environment Generation for Embodied Agents](https://arxiv.org/abs/2602.06366). ArXiv 2026. Adaptive scene generation driven by current agent competence.
@@ -172,6 +173,7 @@ It focuses on environments where agents can act, be trained, or be evaluated in 
 ### Sandbox Platforms
 
 - [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview). 2026. Anthropic's managed agent runtime with configurable cloud environments, hosted execution, built-in tools, and persistent sessions. Docs: [Environment setup](https://platform.claude.com/docs/en/managed-agents/environments), [Container reference](https://platform.claude.com/docs/en/managed-agents/cloud-containers), [Start a session](https://platform.claude.com/docs/en/managed-agents/sessions).
+- [AEnvironment](https://github.com/inclusionAI/AEnvironment). 2026. Production-grade environment platform built around "Everything as Environment", unifying benchmark integration, agentic RL training, and agent deployment behind a standardized interface. [![GitHub Repo stars](https://img.shields.io/github/stars/inclusionAI/AEnvironment)](https://github.com/inclusionAI/AEnvironment)
 - [ROCK](https://github.com/alibaba/ROCK). 2026. Environment and sandbox management framework with a client-server architecture, unified SDKs, and scalable runtime orchestration for agent training workloads. [![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/ROCK)](https://github.com/alibaba/ROCK)
 - [OpenSandbox](https://github.com/alibaba/OpenSandbox). 2026. General-purpose sandbox platform for AI applications with unified sandbox APIs, Docker/Kubernetes runtimes, and built-in coding and GUI environments. [![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/OpenSandbox)](https://github.com/alibaba/OpenSandbox)
 - [AIO Sandbox](https://github.com/agent-infra/sandbox). 2025. All-in-one sandbox combining browser, shell, file, MCP, and VSCode Server in a single Docker container with MCP-compatible APIs. [![GitHub Repo stars](https://img.shields.io/github/stars/agent-infra/sandbox)](https://github.com/agent-infra/sandbox)
