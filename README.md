@@ -6,6 +6,9 @@
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
     <a href="https://github.com/ZackZikaiXiao/Awesome-Agent-Environments/pulls"><img src="https://img.shields.io/badge/PRs-welcome-red" alt="PRs Welcome"></a>
   </p>
+  <p align="center">
+    <a href="https://drive.google.com/file/d/1njGVDPSVtDA4m2tsYDgNbYHOpRYst3Vc/view?usp=drive_link">Slides</a>
+  </p>
 </div>
 
 This repository collects reusable environments for AI agents, along with the systems used to generate, host, and scale those environments.
