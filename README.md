@@ -5,9 +5,7 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0"></a>
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
     <a href="https://github.com/ZackZikaiXiao/Awesome-Agent-Environments/pulls"><img src="https://img.shields.io/badge/PRs-welcome-red" alt="PRs Welcome"></a>
-  </p>
-  <p align="center">
-    <a href="https://drive.google.com/file/d/1njGVDPSVtDA4m2tsYDgNbYHOpRYst3Vc/view?usp=drive_link">Slides</a>
+    <a href="https://drive.google.com/file/d/1njGVDPSVtDA4m2tsYDgNbYHOpRYst3Vc/view?usp=drive_link"><img src="https://img.shields.io/badge/Slides-Google%20Drive-4285F4?logo=googledrive&logoColor=white" alt="Slides"></a>
   </p>
 </div>
 
