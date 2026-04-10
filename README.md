@@ -46,10 +46,10 @@ A Chinese slide deck is included, covering definitions, taxonomy, properties, an
 
 ### Web
 
-- [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://arxiv.org/abs/2603.22529). CVPR 2026. Web-agent benchmark that links egocentric video perception with live web execution and automatic evaluation.
-- [Online-Mind2Web](https://openreview.net/forum?id=6jZi4HSs6o). COLM 2025. Online extension of Mind2Web for live and dynamic web interaction.
+- [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://arxiv.org/abs/2603.22529). CVPR 2026. Web-agent benchmark that links egocentric video perception with live web execution and automatic evaluation. [![GitHub Repo stars](https://img.shields.io/github/stars/Yui010206/Ego2Web)](https://github.com/Yui010206/Ego2Web)
+- [Online-Mind2Web](https://openreview.net/forum?id=6jZi4HSs6o). COLM 2025. Online extension of Mind2Web for live and dynamic web interaction. [![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/Online-Mind2Web)](https://github.com/OSU-NLP-Group/Online-Mind2Web)
 - [FieldWorkArena](https://arxiv.org/abs/2505.19662). ArXiv 2025. Benchmark for field-service style workflows conducted through enterprise web interfaces. [![GitHub Repo stars](https://img.shields.io/github/stars/FujitsuResearch/FieldWorkArena)](https://github.com/FujitsuResearch/FieldWorkArena)
-- [WebChoreArena](https://arxiv.org/abs/2509.13177). ArXiv 2025. Cross-page and multi-step web chores benchmark designed to break shortcut-heavy web agents.
+- [WebChoreArena](https://arxiv.org/abs/2506.01952). ArXiv 2025. Cross-page and multi-step web chores benchmark designed to break shortcut-heavy web agents. [![GitHub Repo stars](https://img.shields.io/github/stars/WebChoreArena/WebChoreArena)](https://github.com/WebChoreArena/WebChoreArena)
 - [DoomArena](https://arxiv.org/abs/2504.14064). ArXiv 2025. Stress-testing environment for robust and adversarial browser-agent behavior. [![GitHub Repo stars](https://img.shields.io/github/stars/ServiceNow/DoomArena)](https://github.com/ServiceNow/DoomArena)
 - [VisualWebArena](https://aclanthology.org/2024.acl-long.50/). ACL 2024. Multimodal extension of WebArena with richer visual grounding. [![GitHub Repo stars](https://img.shields.io/github/stars/web-arena-x/visualwebarena)](https://github.com/web-arena-x/visualwebarena)
 - [WebVoyager](https://aclanthology.org/2024.acl-long.371/). ACL 2024. Open-web browsing benchmark and agent setup for realistic live website interaction. [![GitHub Repo stars](https://img.shields.io/github/stars/MinorJerry/WebVoyager)](https://github.com/MinorJerry/WebVoyager)
