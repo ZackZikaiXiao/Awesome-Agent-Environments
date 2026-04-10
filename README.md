@@ -9,7 +9,7 @@
   </p>
 </div>
 
-> From LLMs to agents, environments are becoming a missing foundation: no environment, no training, no evaluation.
+> From LLMs to agents, environments are becoming essential infrastructure: no environment, no training, no evaluation.
 
 In the supervised learning era, progress scaled with data, algorithms, and compute. In the agent era, environments increasingly take the role of datasets, reward design and verification become core algorithmic bottlenecks, and compute expands beyond GPUs to the full execution stack: runtimes, sandboxes, and orchestration.
 
