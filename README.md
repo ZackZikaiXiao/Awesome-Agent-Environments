@@ -9,9 +9,17 @@
   </p>
 </div>
 
-This repository collects reusable environments for AI agents, along with the systems used to generate, host, and scale those environments.
+> From LLMs to agents, environments are becoming a missing foundation: no environment, no training, no evaluation.
 
-It focuses on environments where agents can act, be trained, or be evaluated in realistic digital settings such as the web, operating systems, codebases, tools, and enterprise workflows.
+In the supervised learning era, progress scaled with data, algorithms, and compute. In the agent era, environments increasingly take the role of datasets, reward design and verification become core algorithmic bottlenecks, and compute expands beyond GPUs to the full execution stack: runtimes, sandboxes, and orchestration.
+
+This repository tracks research and engineering work across three layers:
+
+- Task layer: agent environments and benchmarks across web, vision, computer use, code, tools, personal agents, and enterprise workflows
+- Construction layer: real-world environments, programmatically synthesized environments, and model-based simulators
+- Execution layer: sandbox platforms, runtime isolation, and deployment infrastructure
+
+A Chinese slide deck is included, covering definitions, taxonomy, properties, and open questions around agent environments.
 
 ⭐ Live GitHub star badges are shown when a public repository exists, so the displayed counts stay current without hard-coding numbers.
 
