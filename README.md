@@ -84,7 +84,7 @@ A Chinese slide deck is included, covering definitions, taxonomy, properties, an
 
 ### Coding and Terminal
 
-- [SWE-World: Building Software Engineering Agents in Docker-Free Environments](https://arxiv.org/abs/2602.03419). ArXiv 2026. Docker-free learned surrogate environment for software engineering agents, with code available in RUCAIBox/SWE-World. [![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/SWE-World)](https://github.com/RUCAIBox/SWE-World)
+- [SWE-World: Building Software Engineering Agents in Docker-Free Environments](https://arxiv.org/abs/2602.03419). ArXiv 2026. Docker-free learned surrogate environment for software engineering agents. [![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/SWE-World)](https://github.com/RUCAIBox/SWE-World)
 - [SWE-Universe](https://arxiv.org/abs/2602.02361). ArXiv 2026. Scales real-world verifiable software engineering environments to millions of instances via automated pipeline.
 - [DevOps-Gym](https://arxiv.org/abs/2601.20882). ArXiv 2026. Full DevOps lifecycle benchmark covering build, monitoring, issue resolution, test generation, and end-to-end pipeline tasks.
 - [Hybrid-Gym](https://arxiv.org/abs/2602.16819). ArXiv 2026. Coding-agent training environment aimed at cross-task generalization. [![GitHub Repo stars](https://img.shields.io/github/stars/Hybrid-Gym/Hybrid-Gym)](https://github.com/Hybrid-Gym/Hybrid-Gym)
@@ -156,7 +156,7 @@ A Chinese slide deck is included, covering definitions, taxonomy, properties, an
 
 ### Model-Based Simulation
 
-- [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856). CVPR 2026. GUI world model that predicts next UI states through renderable code generation, with code available from AMAP-ML. [![GitHub Repo stars](https://img.shields.io/github/stars/AMAP-ML/Code2World)](https://github.com/AMAP-ML/Code2World)
+- [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856). CVPR 2026. GUI world model that predicts next UI states through renderable code generation. [![GitHub Repo stars](https://img.shields.io/github/stars/AMAP-ML/Code2World)](https://github.com/AMAP-ML/Code2World)
 - [Agent World Model](https://arxiv.org/abs/2602.10090). ArXiv 2026. Fully synthetic code-driven environments backed by databases and tool APIs. [![GitHub Repo stars](https://img.shields.io/github/stars/Snowflake-Labs/agent-world-model)](https://github.com/Snowflake-Labs/agent-world-model)
 - [WebWorld](https://arxiv.org/abs/2602.14721). ArXiv 2026. Large-scale world model for open-web agent training.
 - [Reinforcement World Model Learning for LLM-based Agents](https://arxiv.org/abs/2602.05842). ArXiv 2026. Self-supervised world-model learning method that aligns simulated next states with real environment transitions.
