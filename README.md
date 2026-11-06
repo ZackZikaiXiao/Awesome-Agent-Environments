@@ -121,6 +121,7 @@ A Chinese slide deck is included, covering definitions, taxonomy, properties, an
 
 ### Personal Agents
 
+- [EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution](https://arxiv.org/abs/2610.17816). ArXiv 2026. Executable OpenClaw-based benchmark of 128 digital-workspace tasks (100 with privacy annotations) for edge-cloud collaborative agents, jointly scoring task performance, cloud cost, and privacy exposure. [![GitHub Repo stars](https://img.shields.io/github/stars/OpenBMB/EC2-Bench)](https://github.com/OpenBMB/EC2-Bench)
 - [Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants](https://arxiv.org/abs/2604.00842). ArXiv 2026. PARE and Pare-Bench model proactive assistants in digital environments spanning communication, productivity, scheduling, and lifestyle apps. [![GitHub Repo stars](https://img.shields.io/github/stars/deepakn97/pare)](https://github.com/deepakn97/pare)
 - [OpenClaw Arena](https://openclaw-arena.github.io/). 2026. Benchmark for personal AI agents that measures task competence and personality consistency across 100 real-world tasks.
 - [OpenClaw](https://github.com/openclaw/openclaw). 2026. Local-first personal AI agent and workflow system with multi-channel interfaces, tool use, and controlled execution boundaries. [![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/openclaw)](https://github.com/openclaw/openclaw)
